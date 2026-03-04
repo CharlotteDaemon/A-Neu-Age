@@ -27,7 +27,7 @@ Change Log:
      - QSC#1 retains basically the same molecule shape, but was modified to be arguably simpler to assemble and far less tedious
    - General Fixes
      - Corrected internal puzzle IDs to fix some puzzles being un-unlockeable
-     - Renamed some interal puzzles names to be mor similar to their name in the puzzle list.
+     - Renamed some interal puzzles names to be more similar to their name in the puzzle list.
      - Added Armand portrait
      - Fixed Caladia and Hadrius' colors from being too bright
      - Various spelling and grammar errors fixed (there will always be more)
