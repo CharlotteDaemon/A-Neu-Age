@@ -1,0 +1,19 @@
+Anataeus: And a new chapter!
+Concordia: How come the last puzzle of the previous chapter didn't have a story?
+Anataeus: It's entry had NoStoryPanel set to "true". That means no vignette file is necessary.
+Anataeus: Handy, because I don't want to make a vignette for every puzzle.
+Concordia: Okay. So then, why did this puzzle and the next puzzle unlock at the same time?
+Anataeus: This puzzle didn't have anything in the Required field, so it was available right away.
+Anataeus: The same is true for the next puzzle.
+Concordia: Makes sense.
+Anataeus: On the other hand, the next two puzzles will only unlock once we've completed the next puzzle.
+Anataeus: So let's get cracking.
+
+-----------
+
+Concordia: That seemed too easy.
+Anataeus: Well, I want to focus on how the campaign is set up.
+Anataeus: Simple puzzles make it easier to showcase that.
+Concordia: ...We'll have _some_ interesting puzzles, surely?
+Anataeus: Well, maybe.
+Anataeus: More interesting than this one, at least.

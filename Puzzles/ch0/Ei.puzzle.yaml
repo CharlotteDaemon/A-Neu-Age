@@ -1,0 +1,53 @@
+Name: 'E.I: BASIC EFFICIENCIES'
+ID: EI
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: lead
+      Position:
+        Pos: 0,0
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,-1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Reactive Lead
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    - AtomType: iron
+      Position:
+        Pos: -1,0
+    - AtomType: copper
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Reactivity Rod
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, Projection, Purification, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions: []
+Highlights: []
+ProductionInfo: 

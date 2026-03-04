@@ -1,0 +1,19 @@
+Name: ANeuAge
+Version: 0.1.0
+#Icon: mod_icon.png
+Title: "A Neu Age"
+Desc: "Very Early Version of the 'A Neu Age' campaign"
+DLL: ANeuAge.dll
+Dependencies:
+- Name: Quintessential
+  Version: 0.5.1
+- Name: Brimstone
+  Version: 2.0.1
+- Name: HalvingMetallurgy
+  Version: 4.1.2
+- Name: Vacancy
+  Version: 1.0.1
+- Name: ReductiveMetallurgy
+  Version: 1.0.1
+#OptionalDependencies
+#Mappings:

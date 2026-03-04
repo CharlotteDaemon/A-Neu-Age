@@ -1,0 +1,201 @@
+Name: '7. QUICKSILVER CURE ATTEMPT #37'
+ID: 007QSC3007QuicksilverCureAttemptNum37
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:quicklime
+      Position:
+        Pos: 0,-1
+    - AtomType: silver
+      Position:
+        Pos: 0,0
+    - AtomType: quicksilver
+      Position:
+        Pos: -1,0
+    - AtomType: HalvingMetallurgy:quickcopper
+      Position:
+        Pos: -1,-1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    Name: Quick-Contaminated Alloy
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    - AtomType: vitae
+      Position:
+        Pos: 2,-1
+    - AtomType: air
+      Position:
+        Pos: 1,1
+    - AtomType: quintessence
+      Position:
+        Pos: 0,1
+    - AtomType: quintessence
+      Position:
+        Pos: 2,0
+    - AtomType: water
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: 1,1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 2,-1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Fizzing Medicine
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:osmium
+      Position:
+        Pos: 0,0
+    - AtomType: gold
+      Position:
+        Pos: 0,-1
+    - AtomType: earth
+      Position:
+        Pos: -2,0
+    - AtomType: vitae
+      Position:
+        Pos: -2,1
+    - AtomType: quintessence
+      Position:
+        Pos: -1,1
+    - AtomType: air
+      Position:
+        Pos: -1,0
+    - AtomType: quintessence
+      Position:
+        Pos: -1,-1
+    - AtomType: vitae
+      Position:
+        Pos: 0,-2
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -2,1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-2
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Stupid Usesless Molecules That Probably Won't Even Work
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Duplication, Projection, Purification, Disposal, CoreTools, BaronWheel
+CustomPermissions:
+- ReductiveMetallurgy:rejection
+- HalvingMetallurgy:halving
+Highlights: []
+ProductionInfo: 

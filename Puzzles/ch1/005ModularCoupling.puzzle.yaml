@@ -1,0 +1,122 @@
+Name: 5. Modular Coupling
+ID: 005ModularCoupling
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: silver
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: ''
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 0,1
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 0,-1
+    - AtomType: lead
+      Position:
+        Pos: -1,0
+    - AtomType: lead
+      Position:
+        Pos: 1,0
+    - AtomType: HalvingMetallurgy:wolfram
+      Position:
+        Pos: -1,1
+    - AtomType: HalvingMetallurgy:wolfram
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    Name: Modular Coupling
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: SimpleArm, PistonArm, Track, Bonder, Unbonder, SpeedBonder, Purification, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- HalvingMetallurgy:shearing
+Highlights: []
+ProductionInfo:
+  Chambers:
+  - ChamberType: Medium
+    Position:
+      Pos: 5,-3
+  - ChamberType: SmallWider
+    Position:
+      Pos: -2,-3
+  - ChamberType: SmallWide
+    Position:
+      Pos: -1,1
+  Conduits:
+  - PosA:
+      Pos: 0,-2
+    PosB:
+      Pos: -1,0
+    Shape:
+    - Pos: 0,0
+  - PosA:
+      Pos: -3,-3
+    PosB:
+      Pos: 3,-3
+    Shape:
+    - Pos: 0,0
+    - Pos: 1,-1
+    - Pos: 0,1
+  Vials:
+  - Position:
+      Pos: -7,3
+    Top: true
+    Sprites:
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  Isolation: false
+  ShrinkLeft: false
+  ShrinkRight: false

@@ -1,0 +1,167 @@
+Name: 4. Precision Mechanisms
+ID: 004PrecisionMechanisms
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:quickcopper
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Quickcopper
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Quicksilver
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: iron
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Iron
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: copper
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Copper
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: copper
+      Position:
+        Pos: 0,0
+    - AtomType: HalvingMetallurgy:zinc
+      Position:
+        Pos: -1,1
+    - AtomType: HalvingMetallurgy:zinc
+      Position:
+        Pos: 1,-1
+    - AtomType: HalvingMetallurgy:nickel
+      Position:
+        Pos: 0,-1
+    - AtomType: HalvingMetallurgy:nickel
+      Position:
+        Pos: 0,1
+    - AtomType: HalvingMetallurgy:nickel
+      Position:
+        Pos: -2,1
+    - AtomType: HalvingMetallurgy:nickel
+      Position:
+        Pos: 2,-1
+    - AtomType: iron
+      Position:
+        Pos: -1,-1
+    - AtomType: iron
+      Position:
+        Pos: 1,1
+    Bonds:
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    Name: Precision Slides
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: SimpleArm, PistonArm, Track, Bonder, Unbonder, SpeedBonder, Projection, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- ReductiveMetallurgy:rejection
+- HalvingMetallurgy:halving
+- HalvingMetallurgy:remission
+- HalvingMetallurgy:shearing
+Highlights: []
+ProductionInfo:
+  Chambers:
+  - ChamberType: Large
+    Position:
+      Pos: 0,0
+  - ChamberType: SmallWider
+    Position:
+      Pos: -10,-2
+  Conduits:
+  - PosA:
+      Pos: -7,-2
+    PosB:
+      Pos: 3,-2
+    Shape:
+    - Pos: 0,0
+    - Pos: 0,-1
+  Vials:
+  - Position:
+      Pos: 5,-3
+    Top: false
+    Sprites:
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  - Position:
+      Pos: -12,3
+    Top: true
+    Sprites:
+    - Left: textures/pipelines/vials/elemental_quicksilver/full
+      Right: textures/pipelines/vials/elemental_quicksilver/full
+    - Left: textures/pipelines/vials/elemental_iron/full
+      Right: textures/pipelines/vials/elemental_iron/full
+    - Left: textures/pipelines/vials/elemental_lead/full
+      Right: textures/pipelines/vials/elemental_lead/full
+  - Position:
+      Pos: -5,-3
+    Top: false
+    Sprites:
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  Isolation: false
+  ShrinkLeft: false
+  ShrinkRight: false

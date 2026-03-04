@@ -1,0 +1,53 @@
+Name: PUZZLE105
+ID: puzzle105
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: copper
+      Position:
+        Pos: 1,0
+    - AtomType: earth
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Copper Patina
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: silver
+      Position:
+        Pos: 0,0
+    - AtomType: mors
+      Position:
+        Pos: 0,-1
+    - AtomType: vitae
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Wolfsbane, sure idk
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Purification, LifeAndDeath, CoreTools
+CustomPermissions: []
+Highlights: []
+ProductionInfo: 
