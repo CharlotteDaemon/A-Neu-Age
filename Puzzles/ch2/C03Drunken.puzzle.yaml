@@ -1,0 +1,15 @@
+Name: What do you do with a drunken alchemist?
+ID: C03Drunken
+Author: ''
+Inputs: []
+Outputs: []
+OutputMultiplier: 1
+PermissionFlags: CoreTools
+CustomPermissions:
+- Neuvolics:separation
+- Neuvolics:fixation
+- HalvingMetallurgy:halving
+- HalvingMetallurgy:shearing
+- HalvingMetallurgy:remission
+Highlights: []
+ProductionInfo: 

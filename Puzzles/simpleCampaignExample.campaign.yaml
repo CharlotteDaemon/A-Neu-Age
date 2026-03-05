@@ -116,3 +116,29 @@ Chapters: # starts a list of Chapter models
     Title: "7. A Bad Decision"
     Puzzle: "ch2/009ABadDecision"
     Requires: "C03Assesing"
+
+  - ID: "010FocusElixir"
+    Title: "8A. Focus Elixir"
+    Puzzle: "ch2/010FocusElixir"
+    Requires: "009ABadDecision"
+
+  - ID: "011SoothingMist"
+    Title: "8B. Soothing Mist"
+    Puzzle: "ch2/011SoothingMist"
+    Requires: "009ABadDecision"
+
+  - ID: "012ViscousLiqour"
+    Title: "8C. Viscous Liqour"
+    Puzzle: "ch2/012ViscousLiqour"
+    Requires: "009ABadDecision"
+
+  - ID: "C03Drunken"
+    Title: "8.01 Drinking"
+    Puzzle: "ch2/C03Drunken"
+    Requires: "012ViscousLiqour"
+  
+  - ID: "013EngineReinforcement"
+    Title: "9. Engine Reinforcement"
+    Puzzle: "ch2/013EngineReinforcement"
+    Requires: "C03Drunken"
+

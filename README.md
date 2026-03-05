@@ -1,7 +1,7 @@
 # A-Neu-Age
 A custom campaign for Opus Magnum that introduces Halving Metallurgy and the Neuvolics through the post college life of Caladia, a young and overambitious alchemist. Rediscover elements of the past with her 100 years after the events of the main campaign.
 
-You are playing version 0.3.4!
+You are playing version 0.4.0!
 
 Required Mods:
  - Brimstone
@@ -17,6 +17,18 @@ Recommended Mods:
  - FTSIGCTU
 
 Change Log:
+
+ - Version Beta 0.4.0:
+   - Added four puzzles and one cutscene.
+   - Tweaked more dialogue
+   - Fixed spelling mistakes.
+   - Added new "character" being Game Tips, used as a standin until I can get them actually working
+
+
+
+
+
+Past Versions:
 
  - Version Beta 0.3.4:
    - Tweaked Puzzles
