@@ -1,0 +1,144 @@
+# the # symbol is used for comments
+#
+# i also use it to separate parts of the file so i can read/parse it easier
+# but if it doesn't help you, then don't do that and just delete or move them :^)
+#
+# the model format is defined at:
+# https://github.com/QuintessentialOM/Quintessential/blob/master/Quintessential/Serialization/CampaignModel.cs
+# 
+
+Name: ANeuAge
+Title: "A Neu Age"
+############################################################################
+Chapters: # starts a list of Chapter models
+- Title: "Chapter 0: Final Exam"
+  Subtitle: "Practice Makes Perfect"
+  Place: "Testing Hall"
+  Background: textures/puzzle_select/background_6 # this reference a vanilla background
+  Entries:
+  - ID: "Ei"
+    Title: "E.i: Basic Efficiencies"
+    Puzzle: "ch0/Ei"
+    #Requires: ################### leaving this out means it's available immediately
+  - ID: "Eii"
+    Title: "E.ii: Distancing Metallicity"
+    Puzzle: "ch0/Eii"
+    #Requires: ################### leaving this out means it's available immediately
+  - ID: "Eiii"
+    Title: "E.iii: An Important Distinction"
+    Puzzle: "ch0/Eiii"
+  - ID: "Eiv"
+    Title: "E.iv: Halves Knowledge Proof"
+    Puzzle: "ch0/Eiv"
+  - ID: "Ev"
+    Title: "E.v: Proof of Understanding"
+    Puzzle: "ch0/Ev"
+############################################################################
+- Title: "Chapter 1: By The Bootstraps"
+  Subtitle: "Out of the Frying Pan..."
+  Place: "Caladia's House"
+  Background: textures/backgrounds/rmc_saverio_office # this references a custom background in this mod's "Content" folder
+  Entries: # starts a list of entries for this chapter
+  - Type: "puzzle" # iirc Quintessential only puzzles are supported
+    ID: "001SlagSeparation" # THIS IS IMPORTANT!
+  # again, to repeat, the ID is IMPORTANT! it needs to be unique.
+  # - the in-game story panel expects to find "<ID>.en.txt" to exist in the "Contents/vignettes" folder of this mod, where <ID> is replaced with whatever the ID of the entry is
+  #   (if you want to support story panels in other languages, create e.g. "<ID>.de.txt" for the German language)
+  # - this ID is also used in "save.dat" to track if player solved it and what their best scores were
+  # - also, this ID is used by the histograms - solves for the same ID are gathered and displayed for other players to see
+    Title: "1. Slag Separation"
+    Puzzle: "ch1/001SlagSeparation" # this needs to point to a .puzzle or a .puzzle.yaml in the "Puzzles" folder of this mod
+    #Requires: ################### leaving this out means it's available immediately
+    # Icon: "textures/icon_rmc_solitaire" # this points to a custom icon in the mod
+    # IconSmall: "textures/icon_rmc_solitaire_small" # this too
+    NoStoryPanel: false # not actually needed, since false is the default. this says "yes, there is a story panel"
+  - ID: "002ExploitingRust"
+    #Type: "puzzle" # "puzzle" is the default, so we don't actually need to include it
+    Title: "2A. Exploiting Rust"
+    Puzzle: "ch1/002ExploitingRust"
+    Requires: "001SlagSeparation" # we put an ID here - this entry will unlock once the entry with ID "PuzzleID_001" is completed
+    #Icon: # leaving this out makes it default to the vanilla icon
+    #IconSmall: # same here
+  #-Type: "puzzle" is the default type, so we don't actually need to list it every time
+  - ID: "003SaltCeramics"
+    Title: "2B. Salt Ceramics"
+    Puzzle: "ch1/003SaltCeramics"
+    Requires: "001SlagSeparation"
+
+  - ID: "004PrecisionMechanisms"
+    Title: "3A. Precision Mechanisms"
+    Puzzle: "ch1/004PrecisionMechanisms"
+    Requires: "003SaltCeramics"
+
+  - ID: "005ModularCoupling"
+    Title: "3B. Modular Coupling"
+    Puzzle: "ch1/005ModularCoupling"
+    Requires: "003SaltCeramics"
+
+  - ID: "006QuicksilverCureAttemptNum1"
+    Title: "4. Quicksilver Cure Attempt #1"
+    Puzzle: "ch1/006QuicksilverCureAttemptNum1"
+    Requires: "005ModularCoupling"
+
+  - ID: "007QuicksilverCureAttemptNum37"
+    Title: "5. Quicksilver Cure Attempt #37"
+    Puzzle: "ch1/007QuicksilverCureAttemptNum37"
+    Requires: "006QuicksilverCureAttemptNum1"
+
+  - ID: "C01PleaseWork"
+    Title: "5.01, Rubbed The Right Way"
+    Puzzle: "ch1/C01PleaseWork"
+    Requires: "007QuicksilverCureAttemptNum37"
+
+  - ID: "008SilverBarProcessing"
+    Title: "6, Silver Bar Processing"
+    Puzzle: "ch1/008SilverBarProcessing"
+    Requires: "007QuicksilverCureAttemptNum37"
+
+  
+############################################################################
+# next chapter, and its entries
+
+#
+############################################################################
+# next chapter, and its entries
+- Title: "It Builds and Builds"
+  Subtitle: "... and Into The Fire"
+  Place: "Caladia's House"
+  Background: textures/backgrounds/rmc_saverio_office # this reference a vanilla background
+  Entries:
+  - ID: "C03Assesing"
+    Title: "6.01, Debts Due"
+    Puzzle: "ch2/C03Assesing"
+    Requires: "008SilverBarProcessing"
+
+  - ID: "009ABadDecision"
+    Title: "7. A Bad Decision"
+    Puzzle: "ch2/009ABadDecision"
+    Requires: "C03Assesing"
+
+  - ID: "010FocusElixir"
+    Title: "8A. Focus Elixir"
+    Puzzle: "ch2/010FocusElixir"
+    Requires: "009ABadDecision"
+
+  - ID: "011SoothingMist"
+    Title: "8B. Soothing Mist"
+    Puzzle: "ch2/011SoothingMist"
+    Requires: "009ABadDecision"
+
+  - ID: "012ViscousLiqour"
+    Title: "8C. Viscous Liqour"
+    Puzzle: "ch2/012ViscousLiqour"
+    Requires: "009ABadDecision"
+
+  - ID: "C03Drunken"
+    Title: "8.01 Drinking"
+    Puzzle: "ch2/C03Drunken"
+    Requires: "012ViscousLiqour"
+  
+  - ID: "013EngineReinforcement"
+    Title: "9. Engine Reinforcement"
+    Puzzle: "ch2/013EngineReinforcement"
+    Requires: "C03Drunken"
+
