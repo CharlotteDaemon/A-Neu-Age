@@ -16,6 +16,12 @@ Recommended Mods:
  - Collision Patch
  - FTSIGCTU
 
+Installation instructions (hopefully a temporary fix):
+ - Download "ANeuAge_0.4.1.zip" and unzip it
+ - Take the folder inside it named "ANeuAge" and place it in your mod folder just like any other mod
+ - it should work like an .exe from there
+ - for linux i don't know sorry
+ 
 Change Log:
 - Version Beta 0.4.1:
   - Added music!!!
