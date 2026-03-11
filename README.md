@@ -1,7 +1,7 @@
 # A-Neu-Age
 A custom campaign for Opus Magnum that introduces Halving Metallurgy and the Neuvolics through the post college life of Caladia, a young and overambitious alchemist. Rediscover elements of the past with her 100 years after the events of the main campaign.
 
-You are playing version 0.4.1!
+You are playing version 0.4.2!
 
 Required Mods:
  - Brimstone
@@ -16,20 +16,18 @@ Recommended Mods:
  - Collision Patch
  - FTSIGCTU
 
-Installation instructions (hopefully a temporary fix):
- - Download "ANeuAge_0.4.1.zip" and unzip it
- - Take the folder inside it named "ANeuAge" and place it in your mod folder just like any other mod
- - it should work like an .exe from there
- - for linux i don't know sorry
  
 Change Log:
-- Version Beta 0.4.1:
-  - Added music!!!
+- Version Beta 0.4.2:
+  - Fixed the issue that required a manual installation to make music work.
  
 
 
 
 Past Versions:
+
+- Version Beta 0.4.1:
+  - Added music!!!
 
 - Version Beta 0.4.0:
    - Added four puzzles and one cutscene.
