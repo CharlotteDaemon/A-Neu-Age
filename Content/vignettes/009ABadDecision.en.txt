@@ -1,9 +1,9 @@
 Caladia: Guilder oh guilder wherever could you be...
-Caladia: I can't find enough... I swear I had more.
+Caladia_s: I can't find enough... I swear I had more.
 Shelf of Reagents:
 Caladia: I have an idea.
 Caladia: A bad idea but it's still a plan.
-Caladia: I can't let Hadrius or Armand find it out though...
+Caladia_s: I can't let Hadrius or Armand find it out though...
 
 -----------
 
@@ -15,10 +15,10 @@ Hadrius: Hurry up!
 Caladia: There, happy?
 Armand: Ah, just when I thought you'd stay hidden in your office the entire night.
 Armand: I hope you don't mind me counting them, to make sure they are all here?
-Caladia: ... Uh ... Go right ahead, Penn, Sir.
+Caladia_s: ... Uh ... Go right ahead, Penn, Sir.
 Armand: It seems you're coins are all in order, very well then. Thank you Ms. Maro and have a nice day.
 Caladia: I-I-uh... You too!
 Hadrius: Why do you look like you're going to have a nervous breakdown?
-Caladia: Trust me, you don't want to know
+Caladia_s: Trust me, you don't want to know
 
 

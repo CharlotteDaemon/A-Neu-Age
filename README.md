@@ -18,13 +18,27 @@ Recommended Mods:
 
  
 Change Log:
-- Version Beta 0.4.2:
-  - Fixed the issue that required a manual installation to make music work.
+- Version Beta 0.5.0:
+  - New Stuff
+    - Caladia has custom portraits now! No more stock photo! Look at her emote!
+    - More Music!
+      - Added "Breach in Metallicity"
+      - Added "Sans Illumination"
+    - Five new levels
+    - Several Cutscenes
+  - Changes to existing content
+    - Typo fixes as always
+    - Changed Silver Bar Processing to be less tedious
+
  
 
 
 
 Past Versions:
+
+
+- Version Beta 0.4.2:
+  - Fixed the issue that required a manual installation to make music work.
 
 - Version Beta 0.4.1:
   - Added music!!!

@@ -1,10 +1,10 @@
 Caladia: ...
 Hadrius: What's wrong?
-Caladia: ...
+Caladia_s: ...
 Hadrius: Caladia, I know that look, what's wrong?
 Caladia: I've graduated from my schooling.
 Hadrius: That's wonderful! How could that be getting you down?
-Caladia: Apparently, all of the equipment I had been using wasn't free, and now I have to pay off the costs.
+Caladia_s: Apparently, all of the equipment I had been using wasn't free, and now I have to pay off the costs.
 Hadrius: ...
 Caladia: _Exactly._
 Hadrius: Well, surely you must have a plan. You always do!
@@ -17,17 +17,17 @@ Caladia: He isn't the most precise.
 Hadrius: Caladia...
 Caladia: What I _mean_ is there has to be *some* good metals left in there!
 Hadrius: Oh... you want me to bring it to you?
-Caladia: Precisely.
+Caladia_h: Precisely.
 Hadrius: I'll see to it then.
 -----------
 
-Caladia: I knew it could be done!
+Caladia_h: I knew it could be done!
 Hadrius: I admit, I'm impressed... but I can't help to feel my brother might be a little upset.
 Caladia: and why is that?
 Hadrius: Aren't we basically stealing from him?
-Caladia: What he doesn't know can't hurt him...
-Caladia: And besides, he was going to just throw it away anyways!
+Caladia_h: What he doesn't know can't hurt him...
+Caladia_h: And besides, he was going to just throw it away anyways!
 Hadrius: I guess so, it just doesn't sit too well with me.
-Caladia: It's ok, I only need one or two more batches anyways.
-Caladia: So many useful materials from *one* alone.
+Caladia_h: It's ok, I only need one or two more batches anyways.
+Caladia_h: So many useful materials from *one* alone.
 

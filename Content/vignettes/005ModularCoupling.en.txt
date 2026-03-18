@@ -1,5 +1,5 @@
 Hadrius: I managed to trade some of your products for silver from my brother, is this enough?
-Caladia: _Holy motherload of silver,_ is that an entire bar? Are you sure you're brother didn't accidentally give you the wrong thing?
+Caladia_h: _Holy motherload of silver,_ is that an entire bar? Are you sure you're brother didn't accidentally give you the wrong thing?
 Hadrius: Nope, he gave me this in trade for the parts. Evidently your work is _really_ high quality.
 Hadrius: _That or it was so bad he pities you._
 Caladia: I heard that!
@@ -12,12 +12,12 @@ Hadrius: I forget how nice you can be when you're not threatening to murder me i
 
 -----------
 
-Caladia: <Yawn> _ugh... finally finished... so sleepy..._
-Caladia: I'd like to keep going through my plans but... 
-Caladia: All the hexagons are blurring together... I must've caught whatever Hadrius has.
-Caladia: I'm just going to check on him... and then... maybe rest in my chair for a while... just a quick nap.
+Caladia_i: <Yawn> _ugh... finally finished... so sleepy..._
+Caladia_i: I'd like to keep going through my plans but... 
+Caladia_i: All the hexagons are blurring together... I must've caught whatever Hadrius has.
+Caladia_i: I'm just going to check on him... and then... maybe rest in my chair for a while... just a quick nap.
 Caladia: !!!
 Caladia: Hadrius! wake up! Are you ok?! _Oh god he's pale, but at least he's still breathing._
-Caladia: and... what's this? Is this... _Quicksilver?_ What is Quicksilver doing on my dresser?
+Caladia_s: and... what's this? Is this... _Quicksilver?_ What is Quicksilver doing on my dresser?
 
 

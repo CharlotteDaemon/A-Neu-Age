@@ -4,16 +4,16 @@ Caladia: It helps with my 'being all over the place'.
 Caladia: I know it works, I tried some a few years back before the later years of College.
 Caladia: In fact I managed to tweak it to work even better before campus banned it.
 Hadrius: They _banned_ it? Why is that, exactly.
-Caladia: If you use too much of it you can get really loopy. It's not harmful at all.
-Caladia: The school just hates fun is all.
+Caladia_h: If you use too much of it you can get really loopy. It's not harmful at all.
+Caladia_h: The school just hates fun is all.
 Hadrius: ...
 Caladia: I'm telling the truth! I swear!
 Tips: Tip: Soria's Wheel only accepts quix via projection onto the wheel or Osmosis. Soria's Wheel can output quix via projection from the wheel, halving from the wheel, shearing a quicksilver, or using the quicksilver sump on one of the quicksilvers. Keep this in mind when using it, as removing it's quix is far easier than recharging it.
 
 -----------
 
-Caladia: Care to have a whiff?
+Caladia_h: Care to have a whiff?
 Hadrius: What, testing it on me so if you made it wrong it only hurts me?
 Caladia: No!
 Caladia: You don't have to be-
-Caladia: Whatever.
+Caladia_s: Whatever.

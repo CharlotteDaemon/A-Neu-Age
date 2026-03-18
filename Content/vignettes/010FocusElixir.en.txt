@@ -15,16 +15,16 @@ Tips: Tip: Quick*lime* is a waste material, and is rarely generated separately f
 -----------
 
 Hadrius: What is that dusty stuff? That chalky powder stuff.
-Caladia: Oh, the quicklime?
-Caladia: That's what happens when you create a quix with zero metallicity.
+Caladia_h: Oh, the quicklime?
+Caladia_h: That's what happens when you create a quix with zero metallicity.
 Hadrius: If it has zero metallicity, then how does it even exist?
-Caladia: A common misconception is that metals and quix exist completely due to their metallicities.
-Caladia: That is very wrong.
-Caladia: Their Identities are immutably linked to their metallicities, no doubt, but they can still exist without it.
+Caladia_h: A common misconception is that metals and quix exist completely due to their metallicities.
+Caladia_h: That is very wrong.
+Caladia_h: Their Identities are immutably linked to their metallicities, no doubt, but they can still exist without it.
 Hadrius: But how can something exist if you have zero of them?
-Caladia: It's better to think of the metals as a bus, and quix as a queue. Even when there's zero people on a bus, the bus still exists, just empty, and when there are zero people waiting in the queue, the queue still exists.
+Caladia_h: It's better to think of the metals as a bus, and quix as a queue. Even when there's zero people on a bus, the bus still exists, just empty, and when there are zero people waiting in the queue, the queue still exists.
 Hadrius: Right, right, the abstracts.
 Hadrius: This is hurting my brain.
-Caladia: Come on, it's not that complicated! Vaca and quicklime have been well known for years, even before we were born.
+Caladia_h: Come on, it's not that complicated! Vaca and quicklime have been well known for years, even before we were born.
 Hadrius: All I care is whether or not it's going to poison me.
-Caladia: Quicklime won't hurt you, no, just as long as you don't inhale too much of it raw. 
+Caladia_h: Quicklime won't hurt you, no, just as long as you don't inhale too much of it raw. 

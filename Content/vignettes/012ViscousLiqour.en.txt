@@ -1,29 +1,31 @@
 Hadrius: Look me in the eyes and tell me that this isn't just alcohol.
-Caladia: Well, it is a type of alcohol.
-Caladia: Another homemade brew I made in college.
-Caladia: Well, saying made isn't entirely correct, a buddy in another dorm came up with a similar formula but it always gave me heart burn, so I modified it.
-Caladia: It unfortunately is as thick as a syrup, but can get a good buzz going without needing to drink much.
+Caladia_h: Well, it is a type of alcohol.
+Caladia_h: Another homemade brew I made in college.
+Caladia_h: Well, saying made isn't entirely correct, a buddy in another dorm came up with a similar formula but it always gave me heart burn, so I modified it.
+Caladia_h: It unfortunately is as thick as a syrup, but can get a good buzz going without needing to drink much.
 Hadrius: If you're planning on drinking your sorrows away I'm going to have to stop you.
-Caladia: That's not-
+Caladia_s: That's not-
 Caladia: What's gotten into you? You've been so hostile lately.
 Hadrius: I'm sorry for being a little miffed, just a few days ago you almost killed us.
 Caladia: I just.
-Caladia: ...
+Caladia_s: ...
 Tips: Tip: Unlike Ravari's wheel, Soria's Wheel cannot be rejected from, rather it is directly used for halving and projecting.
 
 -----------
 
 Caladia: I'm glad Hadrius left for the night.
-Caladia: His... hostility.
+Caladia_s: His... hostility.
 Caladia: It's just not going away. Not like normal. He usually calms down after a little but I guess this time I really messed up.
-Caladia: At least I have this alcohol. And weed. And coffee.
+Caladia_h: At least I have this alcohol. And weed. And coffee.
 Caladia: Just gotta dilute this syrup with some water, shake it up and-
 Caladia: Pour in some cherry extract-
 Caladia: Add the ice-
 Caladia: Shaky-shake- 
-Caladia: And~ Voila!
-Caladia: Mmmmm that's good. I've missed this taste so much.
-Caladia: Hahaha. I can't believe Hadrius didn't realize what I was making. Calling caffein extract an elixir, calling _WEED_ a _soothing mist_.
-Caladia: He'd be so angry hehe... he...
-Caladia: Man I really am... just lying to him... 
-Caladia: ......
+Caladia_h: And~ Voila!
+Caladia_h: Mmmmm that's good. I've missed this taste so much.
+Caladia_h: Hahaha. I can't believe Hadrius didn't realize what I was making. Calling caffein extract an elixir, calling _WEED_ a _soothing mist_.
+Caladia_h: He'd be so angry heheh... He'd...
+Caladia: he...
+Caladia_s: Man I really am... just...
+Caladia: lying to him... 
+Caladia_s: ......

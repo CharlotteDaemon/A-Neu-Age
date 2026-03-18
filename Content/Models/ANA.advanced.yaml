@@ -1,0 +1,59 @@
+entries:
+
+## ID is same as puzzle yaml id
+## song name is same as audio file
+
+ - ID: 001SlagSeparation
+   songName: "Transmutation"
+
+ - ID: 002ExploitingRust
+   songName: "NewFrontier"
+
+ - ID: 003SaltCereamics
+   songName: "Transmutation"
+
+ - ID: 004PrecisionMechanisms
+   songName: "NewFrontier"
+
+ - ID: 005ModularCouplings
+   songName: "Transmutation"
+
+ - ID: 006QuicksilverCureAttemptNum1
+   songName: "BloodRunHot"
+
+ - ID: 007QuicksilverCureAttemptNum37
+   songName: "Androids"
+
+ - ID: 008SilverBarProcessing
+   songName: "NewFrontier"
+
+ - ID: 009ABadDecision
+   songName: "ABadDecision"
+
+ - ID: 010FocusElixir
+   songName: "NewFrontier"
+
+ - ID: 011SoothingMist
+   songName: "Transmutation"
+
+ - ID: 012ViscousLiqour
+   songName: "NewFrontier"
+
+ - ID: 013EngineReinforcement
+   songName: "TransmutationDrunk"
+
+ - ID: 014SiltSeparation
+   songName: "Transmutation"
+
+ - ID: 015VitaminWater
+   songName: "NewFrontier"
+
+ - ID: 016PotionOfReinvigoration
+   songName: "SansIllumination"
+
+ - ID: 017StrangeMetalStudy
+   songName: "BreachInMetallicity"
+
+ - ID: 018InkDetectingFluid
+   songName: "SansIllumination"
+

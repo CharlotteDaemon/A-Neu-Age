@@ -2,24 +2,25 @@ Hadrius: Caladia, there's someone for you at the door.
 Caladia: Really? Who is it?
 Hadrius: I don't know, but he says he's from the school.
 Caladia: Hm....
-Caladia: <Shouting through door> Who is it?
+Armand_Not_Known: Hadrius invited me in but this will be quick, I am comfortable waiting here.
+Caladia: Who are you?
 Armand_Not_Known: Would you happen to be the Ms. Maro, Caladia?
 Caladia: Yes, that is me, but again. Who are you?
 Armand_Not_Known: Debt collection, ma'am. Your first payment is due today.
 Caladia: But I thought the payments were monthly?
 Armand_Not_Known: They are, however they begin today. You may hand me your payment now, or send it via letter before the end of this month.
 Armand_Not_Known: With a Two-Hundred Guilder fee for processing of course.
-Caladia: but- I don't.
-Caladia: How does the school expect me to have enough for a payment in just over four days?
+Caladia_s: but- I don't.
+Caladia_s: How does the school expect me to have enough for a payment in just over four days?
 Armand_Not_Known: I assure you that in your application, it was detailed exactly as I have explained.
 Armand_Not_Known: I need to know, will you be able to produce your first payment of Nine-Hundred Guilder...
 Armand_Not_Known: Or shall I mark you down as paying through letter on my list here.
 Caladia: Nine-Hundr-! I-!
 Caladia: Are you able to wait here, just for a short while? I think I have enough right now I just need to...
-Caladia: 'Collect' It...
+Caladia_s: 'Collect' It...
 Armand_Not_Known: Normally I'm pretty strict about accepting the payments or leaving right away, but since you've been rather polite and I am ahead of schedule...
 Armand_Not_Known: Yes, I will allow you time to collect your coin.
-Caladia: Thank you, uh, sir... What was your name?
+Caladia: Thank you, uh, sir... I don't think I got your name?
 Armand: Penn, Mr. Armand Penn.
 
 -----------

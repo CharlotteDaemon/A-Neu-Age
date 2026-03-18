@@ -1,7 +1,7 @@
-Caladia: Time to get on to the next task!
+Caladia_h: Time to get on to the next task!
 Hadrius: Hopefully with less 'Killing Us' involved.
 Caladia: It's...
-Caladia: I'm sorry about the poisoning but I just-
+Caladia_s: I'm sorry about the poisoning but I just-
 Caladia: Yeah this is safer, don't worry.
 Hadrius: I'll believe it when I see it.
 Caladia: I'm just going to be making some useful impliments out of that silver bar you got me.
@@ -10,7 +10,7 @@ Caladia: I will!
 
 -----------
 
-Caladia: These wheels should be extremely helpfull, at least in some cases.
+Caladia: These wheels should be extremely helpful, at least in some cases.
 Hadrius: Will they poison us?
 Caladia: Not if I'm carefull. It's only as dangerous as a Berlo.
 Hadrius: Hmmm...

@@ -4,14 +4,14 @@ Caladia: Hadrius?
 Hadrius: _why... so... bright..._
 Caladia: Oh! Sorry, I'll extinguish the light.
 Hadrius: What's happening? Why do I feel so fuzzy?
-Caladia: That just means it's working.
+Caladia_h: That just means it's working.
 Hadrius: That means _what_ is working?
-Caladia: The cure I developed for our quicksilver poisoning. It's makes your skin feel a little fuzzy but that just means it's working.
+Caladia_h: The cure I developed for our quicksilver poisoning. It's makes your skin feel a little fuzzy but that just means it's working.
 Hadrius: Hold on, *QUICKSILVER POISONING*?
-Caladia: Yeah, but not anymore.
+Caladia_h: Yeah, but not anymore.
 Hadrius: You're acting like this isn't a big deal!
 Hadrius: We could have _died,_ Caladia. The way I feel I honestly think I was halfway there!
-Caladia: But- you're fine now... I'm fine...
+Caladia_s: But- you're fine now... I'm fine...
 Hadrius: You just, you need to be more careful. I know you feel free since you don't have the school breathing down you back but...
 Hadrius: Evidently they were the only thing keeping you from killing yourself.
 Caladia: _Almost_ killing myself. We're still alive, because of my cure.
