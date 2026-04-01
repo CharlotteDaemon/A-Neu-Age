@@ -195,9 +195,9 @@ Chapters: # starts a list of Chapter models
 
     ############################################################################
 # next chapter, and its entries
-- Title: "Chapter 3: Old Discoveries Aneu"
-  Subtitle: "Research Cast Away, Retrieved"
-  Place: "Caladia's House"
-  Background: textures/backgrounds/rmc_saverio_office # this reference a vanilla background
-  Entries:
+#- Title: "Chapter 3: Old Discoveries Aneu"
+#  Subtitle: "Research Cast Away, Retrieved"
+#  Place: "Caladia's House"
+#  Background: textures/backgrounds/rmc_saverio_office # this reference a vanilla background
+#  Entries:
   

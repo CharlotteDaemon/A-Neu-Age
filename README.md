@@ -1,7 +1,7 @@
 # A-Neu-Age
 A custom campaign for Opus Magnum that introduces Halving Metallurgy and the Neuvolics through the post college life of Caladia, a young and overambitious alchemist. Rediscover elements of the past with her 100 years after the events of the main campaign.
 
-You are playing version 0.5.1!
+You are playing version 0.5.2!
 
 !!! IMPORTANT NOTE !!!
 If you are not downlaoding a release (which there has not been one available yet) do NOT download the entire repo! Download ONLY the zip file by clicking on the link leading to the raw file and downloading it there. The entire repo is NOT going to function as a mod. Thank you for reading
@@ -21,6 +21,13 @@ Recommended Mods:
 
  
 Change Log:
+- Version Beta 0.5.2
+  - Fixed an issue with ghost chapters crashing the game
+ 
+
+
+
+Past Versions:
 - Version Beta 0.5.1
   - Various Fixes were made
     - More typos sorted out
@@ -31,11 +38,7 @@ Change Log:
     - Changed the dialogue in some scenes to make it more obvious Caladia is being playful and not actually threatening Hadrius' life
     - Changed the layout and detailing of some of the decorations in production levels to hopefully avoid the void from consuming cabinets better.
     - Fixed an imposter duplicate campaign file that was causing two ANA campaigns showing up on the campaign selecter
- 
 
-
-
-Past Versions:
 - Version Beta 0.5.0:
   - New Stuff
     - Caladia has custom portraits now! No more stock photo! Look at her emote!
