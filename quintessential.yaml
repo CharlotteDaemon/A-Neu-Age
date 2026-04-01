@@ -1,5 +1,5 @@
 Name: ANeuAge
-Version: 0.4.0
+Version: 0.5.1
 #Icon: mod_icon.png
 Title: "A Neu Age"
 Desc: "Very Early Version of the 'A Neu Age' campaign"
@@ -15,5 +15,7 @@ Dependencies:
   Version: 1.0.1
 - Name: ReductiveMetallurgy
   Version: 1.0.1
+- Name: Neuvolics
+  Version: 0.0.3
 #OptionalDependencies
 #Mappings:

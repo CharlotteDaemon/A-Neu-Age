@@ -8,7 +8,7 @@ Inputs:
       Position:
         Pos: 0,0
     Bonds: []
-    Name: ''
+    Name: Elemental Quicksilver
   AmountOverride: 0
 - Molecule:
     Atoms:
@@ -16,7 +16,7 @@ Inputs:
       Position:
         Pos: 0,0
     Bonds: []
-    Name: ''
+    Name: Elemental Gold
   AmountOverride: 0
 Outputs:
 - Molecule:
@@ -25,7 +25,7 @@ Outputs:
       Position:
         Pos: 0,0
     Bonds: []
-    Name: ''
+    Name: Elemental Osmium
   AmountOverride: 0
 - Molecule:
     Atoms:
@@ -33,7 +33,7 @@ Outputs:
       Position:
         Pos: 0,0
     Bonds: []
-    Name: ''
+    Name: Elemental Osmium
   AmountOverride: 0
 OutputMultiplier: 1
 PermissionFlags: CoreTools

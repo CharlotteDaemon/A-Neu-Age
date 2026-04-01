@@ -16,7 +16,7 @@ Inputs:
       Position:
         Pos: 0,0
     Bonds: []
-    Name: ''
+    Name: Elemental Lead
   AmountOverride: 0
 - Molecule:
     Atoms:
@@ -24,7 +24,7 @@ Inputs:
       Position:
         Pos: 0,0
     Bonds: []
-    Name: ''
+    Name: Elemental Gold
   AmountOverride: 0
 - Molecule:
     Atoms:
@@ -32,7 +32,7 @@ Inputs:
       Position:
         Pos: 0,0
     Bonds: []
-    Name: ''
+    Name: Elemental Water
   AmountOverride: 0
 Outputs:
 - Molecule:

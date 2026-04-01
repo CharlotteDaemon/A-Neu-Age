@@ -25,7 +25,7 @@ Inputs:
       Position:
         Pos: 0,0
     Bonds: []
-    Name: ''
+    Name: Elemental Tin
   AmountOverride: 0
 Outputs:
 - Molecule:

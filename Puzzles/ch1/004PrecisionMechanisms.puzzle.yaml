@@ -141,12 +141,6 @@ ProductionInfo:
     - Pos: 0,-1
   Vials:
   - Position:
-      Pos: 5,-3
-    Top: false
-    Sprites:
-    - Left: textures/pipelines/vials/generic/empty
-      Right: textures/pipelines/vials/generic/empty
-  - Position:
       Pos: -12,3
     Top: true
     Sprites:

@@ -1,7 +1,10 @@
 # A-Neu-Age
 A custom campaign for Opus Magnum that introduces Halving Metallurgy and the Neuvolics through the post college life of Caladia, a young and overambitious alchemist. Rediscover elements of the past with her 100 years after the events of the main campaign.
 
-You are playing version 0.4.2!
+You are playing version 0.5.1!
+
+!!! IMPORTANT NOTE !!!
+If you are not downlaoding a release (which there has not been one available yet) do NOT download the entire repo! Download ONLY the zip file by clicking on the link leading to the raw file and downloading it there. The entire repo is NOT going to function as a mod. Thank you for reading
 
 Required Mods:
  - Brimstone
@@ -18,6 +21,21 @@ Recommended Mods:
 
  
 Change Log:
+- Version Beta 0.5.1
+  - Various Fixes were made
+    - More typos sorted out
+    - Fixed Salt Ceramics, Precision Mechanisms, and Modular coupling being misspelled in the song assignment files, making them have no custom music
+    - fixed some single atom reagent/product minomers, being "Molecule" for some strange reason.
+    - Fixed an issue where some portraits didn't load on Linux that did on Windows because of mis-matched casing errors
+    - Reordered puzzles to make chapters a little longer on average. I hope this doesn't mess up save data for some people somehow... you never know
+    - Changed the dialogue in some scenes to make it more obvious Caladia is being playful and not actually threatening Hadrius' life
+    - Changed the layout and detailing of some of the decorations in production levels to hopefully avoid the void from consuming cabinets better.
+    - Fixed an imposter duplicate campaign file that was causing two ANA campaigns showing up on the campaign selecter
+ 
+
+
+
+Past Versions:
 - Version Beta 0.5.0:
   - New Stuff
     - Caladia has custom portraits now! No more stock photo! Look at her emote!
@@ -29,13 +47,6 @@ Change Log:
   - Changes to existing content
     - Typo fixes as always
     - Changed Silver Bar Processing to be less tedious
-
- 
-
-
-
-Past Versions:
-
 
 - Version Beta 0.4.2:
   - Fixed the issue that required a manual installation to make music work.

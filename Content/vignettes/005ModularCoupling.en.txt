@@ -1,5 +1,5 @@
 Hadrius: I managed to trade some of your products for silver from my brother, is this enough?
-Caladia_h: _Holy motherload of silver,_ is that an entire bar? Are you sure you're brother didn't accidentally give you the wrong thing?
+Caladia_h: _Holy motherload of silver,_ is that an entire bar? Are you sure your brother didn't accidentally give you the wrong thing?
 Hadrius: Nope, he gave me this in trade for the parts. Evidently your work is _really_ high quality.
 Hadrius: _That or it was so bad he pities you._
 Caladia: I heard that!
@@ -9,6 +9,7 @@ Caladia: Anyways, I'm going to head to work on these couplings I've been reverse
 Hadrius: I wish you good luck. I would like to stick around and read a book like I normally do, but- <yawn> I feel like I hardly slept at all last night.
 Caladia: You look a little sick, to be honest. I insist you rest in my bed, at least for the afternoon. I'll keep it down in here as to not disturb you.
 Hadrius: I forget how nice you can be when you're not threatening to murder me in cold blood.
+Caladia: Hush, you know they're just jokes, now go get rest.
 
 -----------
 
