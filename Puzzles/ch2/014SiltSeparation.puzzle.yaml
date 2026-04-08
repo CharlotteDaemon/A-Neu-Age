@@ -13,10 +13,10 @@ Inputs:
     - AtomType: water
       Position:
         Pos: -1,1
-    - AtomType: Neuvolics:carbonic
+    - AtomType: Neuvolics:mitrum
       Position:
         Pos: -2,0
-    - AtomType: Neuvolics:potassium
+    - AtomType: Neuvolics:gelaron
       Position:
         Pos: -2,1
     - AtomType: earth

@@ -1,7 +1,7 @@
 # A-Neu-Age
 A custom campaign for Opus Magnum that introduces Halving Metallurgy and the Neuvolics through the post college life of Caladia, a young and overambitious alchemist. Rediscover elements of the past with her 100 years after the events of the main campaign.
 
-You are playing version 0.5.2!
+You are playing version 0.5.4!
 
 !!! IMPORTANT NOTE !!!
 If you are not downlaoding a release (which there has not been one available yet) do NOT download the entire repo! Download ONLY the zip file by clicking on the link leading to the raw file and downloading it there. The entire repo is NOT going to function as a mod. Thank you for reading
@@ -12,7 +12,8 @@ Required Mods:
  - Reductive Metallurgy Campaign
  - Halving Metallurgy
  - Vacancy
- - Neuvolics
+ - Neuvolics (Version 1.0.1 or above)
+ - ErikHaag's updated version of Quintessential (can be gotten by following the "Updating Quintessential" link in the pins of the modding channel on the semi official unofficial zachtronics discord server or by just copy-pasting this link into your browser https://github.com/ErikHaag/Quintessential/wiki/Installation)
 
 Recommended Mods:
  - Zoom Tool
@@ -21,13 +22,23 @@ Recommended Mods:
 
  
 Change Log:
-- Version Beta 0.5.2
-  - Fixed an issue with ghost chapters crashing the game
+- Version Beta 0.5.4
+  - Updated chapter names
+  - Reordered puzzle files to the proper folders internally, was a headache to keep track of so I finally just did the tedius renaming process
+  - Changed the campaign file to properly reference which levels are next and stop Ravari from destroying the continuum.
+  - Fixed various spelling and grammar mistakes as always.
+  - Removed Herobrine
  
 
 
 
 Past Versions:
+- Version Beta 0.5.3
+  - Properly ported over atom names in puzzles containing Neuvolics so that they match the most up to date version of the mod.
+ 
+- Version Beta 0.5.2
+  - Fixed an issue with ghost chapters crashing the game
+
 - Version Beta 0.5.1
   - Various Fixes were made
     - More typos sorted out

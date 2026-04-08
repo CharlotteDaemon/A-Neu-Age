@@ -1,0 +1,15 @@
+Name: Checking Out
+ID: C07CheckingOut
+Author: ''
+Inputs: []
+Outputs: []
+OutputMultiplier: 1
+PermissionFlags: CoreTools
+CustomPermissions:
+- Neuvolics:separation
+- Neuvolics:fixation
+- HalvingMetallurgy:halving
+- HalvingMetallurgy:shearing
+- HalvingMetallurgy:remission
+Highlights: []
+ProductionInfo: 

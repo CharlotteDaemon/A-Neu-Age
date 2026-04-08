@@ -11,7 +11,7 @@ Name: ANeuAge
 Title: "A Neu Age"
 ############################################################################
 Chapters: # starts a list of Chapter models
-- Title: "Chapter 0: Final Exam"
+- Title: "Prologue: Final Exam"
   Subtitle: "Practice Makes Perfect"
   Place: "Testing Hall"
   Background: textures/puzzle_select/background_6 # this reference a vanilla background
@@ -34,8 +34,8 @@ Chapters: # starts a list of Chapter models
     Title: "E.v: Proof of Understanding"
     Puzzle: "ch0/Ev"
 ############################################################################
-- Title: "Chapter 1: By The Bootstraps"
-  Subtitle: "Out of the Frying Pan..."
+- Title: "Chapter 1"
+  Subtitle: "By the Bootstraps"
   Place: "Caladia's House"
   Background: textures/backgrounds/rmc_saverio_office # this references a custom background in this mod's "Content" folder
   Entries: # starts a list of entries for this chapter
@@ -97,12 +97,12 @@ Chapters: # starts a list of Chapter models
 
   - ID: "C03Assesing"
     Title: "6.01, Debts Due"
-    Puzzle: "ch2/C03Assesing"
+    Puzzle: "ch1/C03Assesing"
     Requires: "008SilverBarProcessing"
 
   - ID: "009ABadDecision"
     Title: "7. A Bad Decision"
-    Puzzle: "ch2/009ABadDecision"
+    Puzzle: "ch1/009ABadDecision"
     Requires: "C03Assesing"
 
   
@@ -112,7 +112,7 @@ Chapters: # starts a list of Chapter models
 #
 ############################################################################
 # next chapter, and its entries
-- Title: "Chapter 2: It Builds and Builds"
+- Title: "Chapter 2"
   Subtitle: "Trepidation and Trials"
   Place: "Caladia's House"
   Background: textures/backgrounds/rmc_saverio_office # this reference a vanilla background
@@ -160,44 +160,44 @@ Chapters: # starts a list of Chapter models
 
   - ID: "016PotionOfReinvigoration"
     Title: "12. Potion of Reinvigoration"
-    Puzzle: "ch3/016PotionOfReinvigoration"
+    Puzzle: "ch2/016PotionOfReinvigoration"
     Requires: "015VitaminWater"
   
   - ID: "C05AnApology"
     Title: "12.01 An Apology"
-    Puzzle: "ch3/C05AnApology"
+    Puzzle: "ch2/C05AnApology"
     Requires: "016PotionOfReinvigoration"
 
   - ID: "017StrangeMetalStudy"
     Title: "13. Strange Metal Study"
-    Puzzle: "ch3/017StrangeMetalStudy"
+    Puzzle: "ch2/017StrangeMetalStudy"
     Requires: "C05AnApology"
 
   - ID: "C06BoilingOver"
     Title: "13.01 Boiling Over"
-    Puzzle: "ch3/C06BoilingOver"
+    Puzzle: "ch2/C06BoilingOver"
     Requires: "017StrangeMetalStudy"
 
   - ID: "C07CheckingOut"
     Title: "13.02 Checking Out"
-    Puzzle: "ch3/C07CheckingOut"
+    Puzzle: "ch2/C07CheckingOut"
     Requires: "C06BoilingOver"
   
   - ID: "C08FadedPages"
     Title: "13.03 Faded Pages"
-    Puzzle: "ch3/C08FadedPages"
+    Puzzle: "ch2/C08FadedPages"
     Requires: "C07CheckingOut"
 
   - ID: "018InkDetectingFluid"
     Title: "14. Ink Detecting Fluid"
-    Puzzle: "ch3/018InkDetectingFluid"
+    Puzzle: "ch2/018InkDetectingFluid"
     Requires: "C08FadedPages"
 
     ############################################################################
 # next chapter, and its entries
-#- Title: "Chapter 3: Old Discoveries Aneu"
-#  Subtitle: "Research Cast Away, Retrieved"
-#  Place: "Caladia's House"
+#- Title: "Chapter 3"
+#  Subtitle: "On the Run"
+#  Place: "The Aldora Express"
 #  Background: textures/backgrounds/rmc_saverio_office # this reference a vanilla background
 #  Entries:
-  
+
