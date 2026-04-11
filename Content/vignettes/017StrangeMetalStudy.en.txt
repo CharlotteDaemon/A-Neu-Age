@@ -1,7 +1,7 @@
 Hadrius: What is this stuff? I don't think I've seen anything like it before.
 Caladia: That's actually what I'm trying to figure out.
 Hadrius: Is this _safe_?
-Caladia: I have no reason to think it wouldn't.
+Caladia: I have no reason to think it wouldn't be.
 Caladia: I'm just going to replace a single water with it in a simple solvent recipe to see if it works similarly to a cardinal.
 
 -----------

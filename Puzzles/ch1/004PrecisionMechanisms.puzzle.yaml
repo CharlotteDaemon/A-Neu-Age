@@ -145,17 +145,17 @@ ProductionInfo:
     Top: true
     Sprites:
     - Left: textures/pipelines/vials/elemental_quicksilver/full
-      Right: textures/pipelines/vials/elemental_quicksilver/full
+      Right: textures/pipelines/vials/elemental_quicksilver/draining
     - Left: textures/pipelines/vials/elemental_iron/full
-      Right: textures/pipelines/vials/elemental_iron/full
-    - Left: textures/pipelines/vials/elemental_lead/full
-      Right: textures/pipelines/vials/elemental_lead/full
+      Right: textures/pipelines/vials/elemental_iron/draining
+    - Left: textures/vials/quickcopper/full
+      Right: textures/vials/quickcopper/draining
   - Position:
       Pos: -5,-3
     Top: false
     Sprites:
-    - Left: textures/pipelines/vials/generic/empty
-      Right: textures/pipelines/vials/generic/empty
+    - Left: textures/vials/placeholder
+      Right: textures/vials/placeholder
   Isolation: false
   ShrinkLeft: false
   ShrinkRight: false

@@ -1,0 +1,138 @@
+Name: 22. Advanced Solder Paste
+ID: 022AdvancedSolderPaste
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gelaron
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:azulum
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Azulum
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gold
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: earth
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Earth
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:hestium
+      Position:
+        Pos: 0,0
+    - AtomType: lead
+      Position:
+        Pos: 0,-1
+    - AtomType: tin
+      Position:
+        Pos: 1,-1
+    - AtomType: lead
+      Position:
+        Pos: 1,0
+    - AtomType: tin
+      Position:
+        Pos: 0,1
+    - AtomType: earth
+      Position:
+        Pos: 1,1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    Name: High Grade Soldering Paste
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- Neuvolics:putrefaction
+- ReductiveMetallurgy:deposition
+Highlights: []
+ProductionInfo:
+  Chambers:
+  - ChamberType: Large
+    Position:
+      Pos: 0,0
+  Conduits: []
+  Vials:
+  - Position:
+      Pos: -12,3
+    Top: true
+    Sprites:
+    - Left: textures/vials/gold/full
+      Right: textures/vials/gold/draining
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  - Position:
+      Pos: -5,-3
+    Top: false
+    Sprites:
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  - Position:
+      Pos: -8,-1
+    Top: true
+    Sprites: []
+  - Position:
+      Pos: -11,-3
+    Top: false
+    Sprites:
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  Isolation: false
+  ShrinkLeft: false
+  ShrinkRight: false

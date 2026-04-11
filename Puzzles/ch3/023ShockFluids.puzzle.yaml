@@ -1,0 +1,187 @@
+Name: 23. Shock Resistant Fluids
+ID: 023ShockFluids
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gelaron
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: -1,0
+    - AtomType: fire
+      Position:
+        Pos: 1,-1
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: -1,1
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Mercurial Vulcan
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: iron
+      Position:
+        Pos: 1,-1
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 0,-1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    Name: Shock Resistant Fluid A
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 1,-1
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: iron
+      Position:
+        Pos: 0,-1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Shock Resistant Fluid B
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: PrismaBonder, CoreTools
+CustomPermissions:
+- HalvingMetallurgy:halving
+Highlights: []
+ProductionInfo:
+  Chambers:
+  - ChamberType: Large
+    Position:
+      Pos: 0,0
+  - ChamberType: Large
+    Position:
+      Pos: 4,4
+  Conduits:
+  - PosA:
+      Pos: -1,3
+    PosB:
+      Pos: 1,4
+    Shape:
+    - Pos: 1,-1
+    - Pos: 1,0
+    - Pos: 0,0
+  Vials:
+  - Position:
+      Pos: 5,-3
+    Top: false
+    Sprites:
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  - Position:
+      Pos: -6,7
+    Top: true
+    Sprites:
+    - Left: textures/vials/placeholder
+      Right: textures/vials/placeholder
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  Isolation: false
+  ShrinkLeft: false
+  ShrinkRight: false

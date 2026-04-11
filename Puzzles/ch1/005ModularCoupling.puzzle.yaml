@@ -115,8 +115,8 @@ ProductionInfo:
       Pos: -7,3
     Top: true
     Sprites:
-    - Left: textures/pipelines/vials/generic/empty
-      Right: textures/pipelines/vials/generic/empty
+    - Left: textures/pipelines/vials/elemental_silver_full
+      Right: textures/pipelines/vials/elemental_silver_draining
   Isolation: false
   ShrinkLeft: false
   ShrinkRight: false

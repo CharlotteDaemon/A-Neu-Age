@@ -84,21 +84,29 @@ ProductionInfo:
   Chambers:
   - ChamberType: Medium
     Position:
-      Pos: 1,-1
+      Pos: 0,0
   Conduits: []
   Vials:
   - Position:
-      Pos: 5,-3
+      Pos: 4,-2
     Top: false
     Sprites:
-    - Left: textures/pipelines/vials/generic/empty
-      Right: textures/pipelines/vials/generic/empty
+    - Left: textures/pipelines/vials/elemental_lead/empty
+      Right: textures/pipelines/vials/elemental_lead/filling
+    - Left: textures/pipelines/vials/elemental_quicksilver/empty
+      Right: textures/pipelines/vials/elemental_quicksilver/filling
+    - Left: textures/vials/placeholder
+      Right: textures/vials/placeholder
   - Position:
-      Pos: -6,1
+      Pos: 5,4
     Top: true
     Sprites:
-    - Left: textures/pipelines/vials/generic/empty
-      Right: textures/pipelines/vials/generic/empty
+    - Left: textures/vials/alchemical_slag/full
+      Right: textures/vials/alchemical_slag/draining
+  - Position:
+      Pos: 1,4
+    Top: true
+    Sprites: []
   Isolation: false
   ShrinkLeft: false
   ShrinkRight: false

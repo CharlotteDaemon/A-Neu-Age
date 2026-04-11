@@ -57,3 +57,30 @@ entries:
  - ID: 018InkDetectingFluid
    songName: "SansIllumination"
 
+ - ID: 019CyclicalMetals
+   songName: "OffTheHandle"
+
+ - ID: 020NeumetallicCompound
+   songName: "Uncovering"
+
+ - ID: 021AurumGlyphPlating
+   songName: "OffTheHandle"
+
+ - ID: 022AdvancedSolderPaste
+   songName: "Uncovering"
+
+ - ID: 023ShockFluids
+   songName: "OffTheHandle"
+   
+ - ID: 024SelfSupportingTiles
+   songName: "Uncovering"
+
+ - ID: 025EnergyRedirector
+   songName: "OffTheHandle"
+
+ - ID: 026DisposalViaCycling
+   songName: "Uncovering"
+
+ - ID: 027FumeMitigatingParticles
+   songName: "OffTheHandle"
+   

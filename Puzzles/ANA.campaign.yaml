@@ -193,11 +193,65 @@ Chapters: # starts a list of Chapter models
     Puzzle: "ch2/018InkDetectingFluid"
     Requires: "C08FadedPages"
 
+  - ID: "C09PutFootDown"
+    Title: "14.01, Putting the Foot Down"
+    Puzzle: "ch2/C09PutFootDown"
+    Requires: "018InkDetectingFluid"
+
     ############################################################################
 # next chapter, and its entries
-#- Title: "Chapter 3"
-#  Subtitle: "On the Run"
-#  Place: "The Aldora Express"
-#  Background: textures/backgrounds/rmc_saverio_office # this reference a vanilla background
-#  Entries:
+- Title: "Chapter 3"
+  Subtitle: "Escaping Restraints"
+  Place: "The Aldora Express"
+  Background: textures/backgrounds/rmc_saverio_office  # this reference a vanilla background
+  Entries:
 
+  - ID: "C10MadDash"
+    Title: "14.02, Making a Mad Dash"
+    Puzzle: "ch3/C10MadDash"
+    Requires: "C09PutFootDown"
+  
+  - ID: "019CyclicalMetals"
+    Title: "15A. Cyclical Metalloids"
+    Puzzle: "ch3/019CyclicalMetals"
+    Requires: "C10MadDash"
+
+  - ID: "020NeumetallicCompound"
+    Title: "15B. Neumetallic Tile Compound"
+    Puzzle: "ch3/020NeumetallicCompound"
+    Requires: "C10MadDash"
+
+  - ID: "021AurumGlyphPlating"
+    Title: "15C. Aurum-Alloy Glyph Plating"
+    Puzzle: "ch3/021AurumGlyphPlating"
+    Requires: "C10MadDash"
+  
+  - ID: "022AdvancedSolderPaste"
+    Title: "15D. High-Grade Solder Paste"
+    Puzzle: "ch3/022AdvancedSolderPaste"
+    Requires: "C10MadDash"
+
+  - ID: "023ShockFluids"
+    Title: "15E. Shock-Resistant SemiFluids"
+    Puzzle: "ch3/023ShockFluids"
+    Requires: "C10MadDash"
+
+  - ID: "024SelfSupportingTiles"
+    Title: "16A. Self Supporting Tiles"
+    Puzzle: "ch3/024SelfSupportingTiles"
+    Requires: "023ShockFluids"
+    
+  - ID: "025EnergyRedirector"
+    Title: "16B. Energy Redirecting Coil"
+    Puzzle: "ch3/025EnergyRedirector"
+    Requires: "023ShockFluids"    
+  
+  - ID: "026DisposalViaCycling"
+    Title: "16C. Disposal Via Cycling"
+    Puzzle: "ch3/026DisposalViaCycling"
+    Requires: "023ShockFluids"
+
+  - ID: "027FumeMitigatingParticles"
+    Title: "16D. Fume Mitigating Particles"
+    Puzzle: "ch3/027FumeMitigatingParticles"
+    Requires: "023ShockFluids"
