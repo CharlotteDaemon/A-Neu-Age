@@ -6,7 +6,7 @@ You are playing version 0.6.0!
 !!! IMPORTANT NOTE !!!
 If you are not downlaoding a release (which there has not been one available yet) do NOT download the entire repo! Download ONLY the zip file by clicking on the link leading to the raw file and downloading it there. The entire repo is NOT going to function as a mod. Thank you for reading
 
-Required Mods:
+Required Mods (OM mod list can be found here https://github.com/QuintessentialOM/Quintessential/wiki/Mod-List):
  - Brimstone
  - Reductive Metallurgy
  - Reductive Metallurgy Campaign
@@ -22,6 +22,17 @@ Recommended Mods:
 
  
 Change Log:
+- Version Beta 0.7.0
+  - changed story select icons to be correct
+  - added brand new icons drawn by Charlotte (me) for the exam levels
+  - added 3 more levels, finishing out chapter 3!
+  - 1 new cutscene.
+  - Fixes for to grammar and tpyoes
+  - Fixed an issue with the new vials overlapping the production chamber for Rust exploitation
+
+
+
+Past Versions:
 - Version Beta 0.6.0
   - updated various production levels to have better aesthetic layouts and custom vial textures
   - as always, SPELLING AND GRAMMAR FIXES
@@ -32,10 +43,6 @@ Change Log:
   - due to popular demand, Herobrine was readded, but all he does is chill in the breakroom
   - gave Ravari his voice back (with great disdaine)
  
-
-
-
-Past Versions:
 - Version Beta 0.5.4
   - Updated chapter names
   - Reordered puzzle files to the proper folders internally, was a headache to keep track of so I finally just did the tedius renaming process

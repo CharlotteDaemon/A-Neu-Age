@@ -1,0 +1,15 @@
+Conductor: Ladies and Gentlemen, if I could please ask you to return to your seats, the train will soon be moving again after the engineers finish some standard assessments.
+Caladia: Looks like I don't have much time, I need to pick one or two recipes and do them quickly.
+Caladia_h: I think I found my first! 
+Caladia_h: An experimental catalyst using the Neuvolics.
+Caladia_h: Looks like it was only theorized on and never actually created, meaning I'll be the first to actually witness this substance come to fruition.
+Caladia_h: This is exciting!
+
+-----------
+
+
+Caladia_h: Ok, it's certainly neat... but.
+Caladia: I don't think this actually has much use?
+Caladia: I can see why no one had made this yet, it doesn't do much. It's a little too inert for a catalyst.
+Caladia: The temperatures all balance out and just sort of homogenize into a stable crystal fluid.
+Caladia: I'll save this for later use but... it probably won't be useful for anything but raw material.

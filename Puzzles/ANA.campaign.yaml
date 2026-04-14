@@ -19,20 +19,30 @@ Chapters: # starts a list of Chapter models
   - ID: "Ei"
     Title: "E.i: Basic Efficiencies"
     Puzzle: "ch0/Ei"
+    Icon: "textures/icons/Exam"
+    IconSmall: "textures/icons/Exam_small"
     #Requires: ################### leaving this out means it's available immediately
   - ID: "Eii"
     Title: "E.ii: Distancing Metallicity"
     Puzzle: "ch0/Eii"
+    Icon: "textures/icons/Exam"
+    IconSmall: "textures/icons/Exam_small"
     #Requires: ################### leaving this out means it's available immediately
   - ID: "Eiii"
     Title: "E.iii: An Important Distinction"
     Puzzle: "ch0/Eiii"
+    Icon: "textures/icons/Exam"
+    IconSmall: "textures/icons/Exam_small"
   - ID: "Eiv"
     Title: "E.iv: Halves Knowledge Proof"
     Puzzle: "ch0/Eiv"
+    Icon: "textures/icons/Exam"
+    IconSmall: "textures/icons/Exam_small"
   - ID: "Ev"
     Title: "E.v: Proof of Understanding"
     Puzzle: "ch0/Ev"
+    Icon: "textures/icons/Exam"
+    IconSmall: "textures/icons/Exam_small"
 ############################################################################
 - Title: "Chapter 1"
   Subtitle: "By the Bootstraps"
@@ -89,6 +99,8 @@ Chapters: # starts a list of Chapter models
     Title: "5.01, Rubbed The Right Way"
     Puzzle: "ch1/C01PleaseWork"
     Requires: "007QuicksilverCureAttemptNum37"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
 
   - ID: "008SilverBarProcessing"
     Title: "6, Silver Bar Processing"
@@ -99,6 +111,8 @@ Chapters: # starts a list of Chapter models
     Title: "6.01, Debts Due"
     Puzzle: "ch1/C03Assesing"
     Requires: "008SilverBarProcessing"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
 
   - ID: "009ABadDecision"
     Title: "7. A Bad Decision"
@@ -137,6 +151,8 @@ Chapters: # starts a list of Chapter models
     Title: "8.01 Drinking"
     Puzzle: "ch2/C03Drunken"
     Requires: "012ViscousLiqour"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
   
   - ID: "013EngineReinforcement"
     Title: "9. Engine Reinforcement"
@@ -147,6 +163,8 @@ Chapters: # starts a list of Chapter models
     Title: "9.01 Ankle Deep in Mud"
     Puzzle: "ch2/C04Creek"
     Requires: "013EngineReinforcement"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
 
   - ID: "014SiltSeparation"
     Title: "10. Silt Sorting"
@@ -167,6 +185,8 @@ Chapters: # starts a list of Chapter models
     Title: "12.01 An Apology"
     Puzzle: "ch2/C05AnApology"
     Requires: "016PotionOfReinvigoration"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
 
   - ID: "017StrangeMetalStudy"
     Title: "13. Strange Metal Study"
@@ -177,16 +197,22 @@ Chapters: # starts a list of Chapter models
     Title: "13.01 Boiling Over"
     Puzzle: "ch2/C06BoilingOver"
     Requires: "017StrangeMetalStudy"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
 
   - ID: "C07CheckingOut"
     Title: "13.02 Checking Out"
     Puzzle: "ch2/C07CheckingOut"
     Requires: "C06BoilingOver"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
   
   - ID: "C08FadedPages"
     Title: "13.03 Faded Pages"
     Puzzle: "ch2/C08FadedPages"
     Requires: "C07CheckingOut"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
 
   - ID: "018InkDetectingFluid"
     Title: "14. Ink Detecting Fluid"
@@ -197,6 +223,8 @@ Chapters: # starts a list of Chapter models
     Title: "14.01, Putting the Foot Down"
     Puzzle: "ch2/C09PutFootDown"
     Requires: "018InkDetectingFluid"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
 
     ############################################################################
 # next chapter, and its entries
@@ -210,6 +238,8 @@ Chapters: # starts a list of Chapter models
     Title: "14.02, Making a Mad Dash"
     Puzzle: "ch3/C10MadDash"
     Requires: "C09PutFootDown"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
   
   - ID: "019CyclicalMetals"
     Title: "15A. Cyclical Metalloids"
@@ -255,3 +285,33 @@ Chapters: # starts a list of Chapter models
     Title: "16D. Fume Mitigating Particles"
     Puzzle: "ch3/027FumeMitigatingParticles"
     Requires: "023ShockFluids"
+
+  - ID: "028FumeHarvesting"
+    Title: "17. Fume Harvesting"
+    Puzzle: "ch3/028FumeHarvesting"
+    Requires: "027FumeMitigatingParticles"
+
+  - ID: "029NeuvolicCatalyst"
+    Title: "18A. Neuvolic Catalyst"
+    Puzzle: "ch3/029NeuvolicCatalyst"
+    Requires: "028FumeHarvesting"
+
+  - ID: "030TwoSides"
+    Title: "18B. Two Sides of a Coin"
+    Puzzle: "ch3/030TwoSides"
+    Requires: "028FumeHarvesting"
+
+
+
+- Title: "Chapter 4"
+  Subtitle: "Two Sides of it All"
+  Place: "Gavrus Family Home || Maro Family Cabin"
+  Background: textures/backgrounds/rmc_saverio_office  # this reference a vanilla background
+  Entries:
+
+  - ID: "C11Cabin"
+    Title: "18.01, Cabin In The Woods"
+    Puzzle: "ch4/C11Cabin"
+    Requires: "030TwoSides"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"

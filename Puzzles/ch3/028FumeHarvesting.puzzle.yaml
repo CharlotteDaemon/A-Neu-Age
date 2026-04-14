@@ -1,0 +1,70 @@
+Name: 17. FUME HARVESTING
+ID: 028FumeHarvesting
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: air
+      Position:
+        Pos: -1,0
+    - AtomType: air
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: -1,-1
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 0,1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Captured Fumes
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Frixon
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Reclaimed Salt
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Zephiron
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: CoreTools
+CustomPermissions:
+- Neuvolics:consolidation
+Highlights: []
+ProductionInfo: 
