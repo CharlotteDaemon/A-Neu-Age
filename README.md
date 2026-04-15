@@ -22,11 +22,14 @@ Recommended Mods:
 
  
 Change Log:
-- Version Beta 0.7.1
-  - Fixed a rather embarrasing and glaring plot hole
+- Version Beta 0.7.2
+  - Fixed a song missasignmentnten
 
 
 Past Versions:
+- Version Beta 0.7.1
+  - Fixed a rather embarrasing and glaring plot hole
+
 - Version Beta 0.7.0
   - changed story select icons to be correct
   - added brand new icons drawn by Charlotte (me) for the exam levels
