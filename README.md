@@ -23,7 +23,7 @@ Recommended Mods:
  
 Change Log:
 - Version Beta 0.7.2
-  - Fixed a song missasignmentnten
+  - Fixed a song misassignment
 
 
 Past Versions:
