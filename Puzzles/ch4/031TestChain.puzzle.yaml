@@ -1,0 +1,81 @@
+Name: 31. TEST CHAIN
+ID: 031TestChain
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Frixon
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Mitrum
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Frixon
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:azulum
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 1,0
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 2,0
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 3,0
+    - AtomType: repeat
+      Position:
+        Pos: 4,0
+    Bonds:
+    - A:
+        Pos: 2,0
+      B:
+        Pos: 3,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 3,0
+      B:
+        Pos: 4,0
+      BondTypes:
+      - standard
+    Name: Test Chain
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- Neuvolics:fixation
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

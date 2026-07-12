@@ -1,0 +1,197 @@
+Name: 9. A BAD DECISION
+ID: 009ABadDecision
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    - AtomType: gold
+      Position:
+        Pos: 0,-1
+    - AtomType: gold
+      Position:
+        Pos: -1,0
+    - AtomType: gold
+      Position:
+        Pos: -2,0
+    - AtomType: gold
+      Position:
+        Pos: -1,-1
+    - AtomType: gold
+      Position:
+        Pos: 0,-2
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    Name: Guilder Coin Shard
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gold
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: -2,0
+    - AtomType: gold
+      Position:
+        Pos: -1,-1
+    - AtomType: gold
+      Position:
+        Pos: 0,-2
+    - AtomType: lead
+      Position:
+        Pos: -1,0
+    - AtomType: lead
+      Position:
+        Pos: 0,0
+    - AtomType: lead
+      Position:
+        Pos: 0,-1
+    Bonds:
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Counterfeit Guilder Coin Shard
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: lead
+      Position:
+        Pos: 0,-1
+    - AtomType: lead
+      Position:
+        Pos: -1,0
+    - AtomType: lead
+      Position:
+        Pos: 0,0
+    - AtomType: gold
+      Position:
+        Pos: -2,0
+    - AtomType: gold
+      Position:
+        Pos: -1,-1
+    - AtomType: gold
+      Position:
+        Pos: 0,-2
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    Name: Counterfeit Guilder Coin Shard
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- ReductiveMetallurgy:deposition
+- HalvingMetallurgy:shearing
+Highlights: []
+ProductionInfo:

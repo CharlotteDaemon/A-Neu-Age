@@ -1,0 +1,85 @@
+Name: UNNAMED CUSTOM PUZZLE
+ID: c565566866829757
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gold
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: iron
+      Position:
+        Pos: 0,0
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,1
+    - AtomType: repeat
+      Position:
+        Pos: 2,0
+    - AtomType: quicksilver
+      Position:
+        Pos: 1,0
+    - AtomType: gold
+      Position:
+        Pos: 1,1
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,-1
+    - AtomType: tin
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    Name: Metallic Feedtape
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Purification, CoreTools
+CustomPermissions:
+- HalvingMetallurgy:sump
+- ReductiveMetallurgy:proliferation
+- ReductiveMetallurgy:rejection
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

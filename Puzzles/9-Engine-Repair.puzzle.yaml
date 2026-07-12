@@ -1,0 +1,80 @@
+Name: ENGINE REPAIR
+ID: 9-Engine-Repair
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: lead
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Lead
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,-2
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,-1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: -1,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: -1,-1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,-2
+    Bonds:
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 1,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    Name: Ring Template
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Projection, CoreTools
+CustomPermissions:
+- Vaca:extraction
+- ReductiveMetallurgy:proliferation
+- ReductiveMetallurgy:rejection
+Highlights: []
+ProductionInfo: 

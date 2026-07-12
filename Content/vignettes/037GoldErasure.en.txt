@@ -1,0 +1,29 @@
+Hadrius: So wait, what are we doing... exactly?
+Anvil: We?
+Anvil_s: There is no we.
+Anvil: _You_ will be learning this yourself with my guidance.
+Hadrius: What do you mean???
+Anvil: What I mean is I won't be the one making the solution, it will be you.
+Hadrius: But... I don't know how to work n Alchemy Machine!
+Anvil: It's easy, and also it's called a *Transmutation Engine*.
+Anvil_s: We'll start somewhere easy for you.
+Anvil: Quicksilver is a *wretched* material but I need a simple demonstration for you to perform so you understand the concept of Vaca, and how to use these metallurgical glyphs _properly_.
+Anvil: Now go on, don't be so scared. The machine can't bite you.
+Anvil_s: Not in this configuration at least.
+
+-----------
+
+Hadrius: And so what did this have to do with helping Caladia?
+Anvil: Nothing directly.
+Hadrius_m: Then why did we do it?! And the hair-
+Anvil_s: Calm down Hadrius, we will get to the hair's use!
+Anvil_s: And besides, how do you expect to make the final solution if you don't understand the fundementals.
+Hadrius: I will never understand how you're my brother when you act nothing like me.
+Anvil_s: If that was supposed to be an insult it didn't work too well.
+Hadrius: Whatever, what do you want me to do with this quicksilver?
+Anvil: Discard it immediately.
+Anvil: It is useless.
+Anvil: Messy.
+Anvil: Wretched.
+Anvil_s: A little like someone else we both have come to know.
+Hadrius_m: I'm going to pretend like I didn't hear that, for both of our's sakes.

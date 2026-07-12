@@ -1,0 +1,107 @@
+Name: 21. AURUM GLYPH PLATING
+ID: 021AurumGlyphPlating
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Mitrum
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gelaron
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gold
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:hestium
+      Position:
+        Pos: 1,0
+    - AtomType: gold
+      Position:
+        Pos: 0,1
+    - AtomType: gold
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Aurum-Alloy Glyph Plating
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- Neuvolics:putrefaction
+Highlights: []
+ProductionInfo:
+  Chambers:
+  - ChamberType: Large
+    Position:
+      Pos: 0,0
+  Conduits: []
+  Vials:
+  - Position:
+      Pos: 2,3
+    Top: true
+    Sprites:
+    - Left: textures/vials/gold/full
+      Right: textures/vials/gold/draining
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  - Position:
+      Pos: 7,-3
+    Top: false
+    Sprites:
+    - Left: textures/vials/placeholder
+      Right: textures/vials/placeholder
+  Isolation: false
+  ShrinkLeft: false
+  ShrinkRight: false

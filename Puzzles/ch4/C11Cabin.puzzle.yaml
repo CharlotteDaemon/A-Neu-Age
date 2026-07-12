@@ -1,0 +1,15 @@
+Name: 18.01, Cabin In The Woods
+ID: C11Cabin
+Author: ''
+Inputs: []
+Outputs: []
+OutputMultiplier: 1
+PermissionFlags: CoreTools
+CustomPermissions:
+- Neuvolics:separation
+- Neuvolics:fixation
+- HalvingMetallurgy:halving
+- HalvingMetallurgy:shearing
+- HalvingMetallurgy:remission
+Highlights: []
+ProductionInfo: 

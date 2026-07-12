@@ -1,0 +1,112 @@
+Name: 1. SLAG SEPARATION
+ID: 001SlagSeparation
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 1,0
+    - AtomType: salt
+      Position:
+        Pos: 0,1
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    - AtomType: lead
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    Name: Alchemical Slag
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Quicksilver
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Salt
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Salt
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: lead
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Lead
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: SimpleArm, Bonder, Unbonder, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions: []
+Highlights: []
+ProductionInfo:
+  Chambers:
+  - ChamberType: Medium
+    Position:
+      Pos: 0,0
+  Conduits: []
+  Vials:
+  - Position:
+      Pos: 4,-2
+    Top: false
+    Sprites:
+    - Left: textures/pipelines/vials/elemental_lead/empty
+      Right: textures/pipelines/vials/elemental_lead/filling
+    - Left: textures/pipelines/vials/elemental_quicksilver/empty
+      Right: textures/pipelines/vials/elemental_quicksilver/filling
+    - Left: textures/vials/placeholder
+      Right: textures/vials/placeholder
+  - Position:
+      Pos: 5,4
+    Top: true
+    Sprites:
+    - Left: textures/vials/alchemical_slag/full
+      Right: textures/vials/alchemical_slag/draining
+  - Position:
+      Pos: 1,4
+    Top: true
+    Sprites: []
+  Isolation: false
+  ShrinkLeft: false
+  ShrinkRight: false

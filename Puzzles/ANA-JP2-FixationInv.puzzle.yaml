@@ -1,0 +1,82 @@
+Name: Inversion
+ID: ANA-JP2-FixationInv
+Author: 'Gavrus, A. H. Maro, C.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,-1
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 1,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: -1,1
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Scorched Gelaron
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: -1,1
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 0,-1
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 1,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Frozen Frixon
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- Neuvolics:fixation
+- Neuvolics:separation
+Highlights: []
+ProductionInfo: 

@@ -1,0 +1,43 @@
+Name: SOLDER FRAGMENT
+ID: 2-Solder-Fragment
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Vaca
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Quicksilver
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: lead
+      Position:
+        Pos: -1,0
+    - AtomType: tin
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Solder Fragment
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Projection, CoreTools
+CustomPermissions: []
+Highlights: []
+ProductionInfo: 

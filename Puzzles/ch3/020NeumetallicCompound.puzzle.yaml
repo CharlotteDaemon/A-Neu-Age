@@ -1,0 +1,105 @@
+Name: 20. NEUMETALLIC COMPOUND
+ID: 020NeumetallicCompound
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Mitrum
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gelaron
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: tin
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Tin
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:azulum
+      Position:
+        Pos: 0,0
+    - AtomType: lead
+      Position:
+        Pos: -1,0
+    - AtomType: iron
+      Position:
+        Pos: -1,1
+    - AtomType: tin
+      Position:
+        Pos: 0,1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    Name: Metallic Tiles
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, Projection, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- Neuvolics:putrefaction
+- ReductiveMetallurgy:rejection
+Highlights: []
+ProductionInfo:
+  Chambers:
+  - ChamberType: SmallWide
+    Position:
+      Pos: -5,5
+  - ChamberType: MediumWide
+    Position:
+      Pos: -1,0
+  Conduits:
+  - PosA:
+      Pos: -3,2
+    PosB:
+      Pos: -5,4
+    Shape:
+    - Pos: 0,0
+  Vials:
+  - Position:
+      Pos: 4,-2
+    Top: false
+    Sprites:
+    - Left: textures/vials/placeholder
+      Right: textures/vials/placeholder
+  - Position:
+      Pos: -2,6
+    Top: true
+    Sprites:
+    - Left: textures/pipelines/vials/elemental_tin/full
+      Right: textures/pipelines/vials/elemental_tin/draining
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  Isolation: false
+  ShrinkLeft: false
+  ShrinkRight: false

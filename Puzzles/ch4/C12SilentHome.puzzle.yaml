@@ -1,0 +1,15 @@
+Name: 24.01, Silent Home
+ID: C12SilentHome
+Author: ''
+Inputs: []
+Outputs: []
+OutputMultiplier: 1
+PermissionFlags: CoreTools
+CustomPermissions:
+- Neuvolics:separation
+- Neuvolics:fixation
+- HalvingMetallurgy:halving
+- HalvingMetallurgy:shearing
+- HalvingMetallurgy:remission
+Highlights: []
+ProductionInfo: 

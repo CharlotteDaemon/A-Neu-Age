@@ -1,0 +1,228 @@
+Name: '"Repressurization Gas"'
+ID: ANA-JP6-ReGas
+Author: 'Breeze, F.A.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,-1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: -1,1
+    - AtomType: air
+      Position:
+        Pos: -1,0
+    - AtomType: air
+      Position:
+        Pos: 1,-1
+    - AtomType: air
+      Position:
+        Pos: 0,1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Massless Air
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: -1,1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,-1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: -2,1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: -1,2
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 2,-1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: -1,-1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,-2
+    - AtomType: air
+      Position:
+        Pos: -1,0
+    - AtomType: air
+      Position:
+        Pos: 0,1
+    - AtomType: air
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: -1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    Name: Frictionless Gas
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, SpeedBonder, Calcification, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- Vaca:extraction
+- HalvingMetallurgy:shearing
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

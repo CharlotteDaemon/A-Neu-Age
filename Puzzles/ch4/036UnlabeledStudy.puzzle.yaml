@@ -1,0 +1,112 @@
+Name: 36. UNLABELED STUDY
+ID: 036UnlabeledStudy
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:hestium
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: -1,0
+    - AtomType: lead
+      Position:
+        Pos: -2,0
+    - AtomType: lead
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Warm Residue
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: -1,0
+    - AtomType: Neuvolics:taceum
+      Position:
+        Pos: -1,1
+    - AtomType: Neuvolics:taceum
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: 0,1
+    - AtomType: tin
+      Position:
+        Pos: 0,-1
+    - AtomType: tin
+      Position:
+        Pos: 1,0
+    - AtomType: iron
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Curious Caustic
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Purification, LifeAndDeath, Disposal, CoreTools
+CustomPermissions:
+- Neuvolics:fixation
+- Neuvolics:separation
+- Neuvolics:putrefaction
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

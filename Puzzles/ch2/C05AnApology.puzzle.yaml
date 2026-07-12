@@ -1,0 +1,15 @@
+Name: Heart-Felt Apology
+ID: C05AnApology
+Author: ''
+Inputs: []
+Outputs: []
+OutputMultiplier: 1
+PermissionFlags: CoreTools
+CustomPermissions:
+- Neuvolics:separation
+- Neuvolics:fixation
+- HalvingMetallurgy:halving
+- HalvingMetallurgy:shearing
+- HalvingMetallurgy:remission
+Highlights: []
+ProductionInfo: 

@@ -1,0 +1,61 @@
+Name: MATRYOSHKA
+ID: 3-Matryoshka
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Vacant Quicksilver
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Reactive Vaca
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    - AtomType: quicksilver
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Reactive Gold
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Projection, Purification, CoreTools
+CustomPermissions: []
+Highlights: []
+ProductionInfo: 

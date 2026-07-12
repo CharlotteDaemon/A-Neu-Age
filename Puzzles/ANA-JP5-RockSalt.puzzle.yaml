@@ -1,0 +1,278 @@
+Name: Ice Melting Salt
+ID: ANA-JP5-RockSalt
+Author: 'Reilly, O.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,-1
+    - AtomType: salt
+      Position:
+        Pos: -1,0
+    - AtomType: salt
+      Position:
+        Pos: -1,1
+    - AtomType: air
+      Position:
+        Pos: 0,1
+    - AtomType: air
+      Position:
+        Pos: 1,0
+    - AtomType: air
+      Position:
+        Pos: 1,-1
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Preservative Salt
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: 0,-1
+    - AtomType: earth
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Oil Producing Flame
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: -1,0
+    - AtomType: fire
+      Position:
+        Pos: 0,0
+    - AtomType: air
+      Position:
+        Pos: 0,1
+    - AtomType: air
+      Position:
+        Pos: 1,0
+    - AtomType: air
+      Position:
+        Pos: 1,-1
+    - AtomType: air
+      Position:
+        Pos: 1,-2
+    - AtomType: fire
+      Position:
+        Pos: -1,2
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: -1,1
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,-1
+    - AtomType: air
+      Position:
+        Pos: -2,2
+    - AtomType: fire
+      Position:
+        Pos: 0,-2
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 1,-2
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -2,2
+      B:
+        Pos: -1,2
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: -1,2
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -2,2
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    Name: Anti-Ice Rocksalt
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Duplication, Disposal, CoreTools
+CustomPermissions: []
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

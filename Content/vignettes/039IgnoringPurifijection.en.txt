@@ -1,0 +1,14 @@
+Anvil: I had one of my rare messups lately. I made a strange chain of metal when trying to make a rod of metallicities by accident.
+Anvil: I want you to apply your knowledge you've just gained to fix it for me.
+Hadrius: Fix it? How?
+Anvil_s: Make me gold.
+Anvil_s: It's easier if you use quicksilver, but as you know, I hate quicksilver, so I've been putting it off.
+Anvil_s: You have none such qualms with the stuff so you'll be using it for me.
+Hadrius: Are you actually going to help me or are you just using me for slave labor.
+Anvil_s: A little of column a, a little of column b...
+
+-----------
+
+Hadrius: How many of your chores do you want me to do before you finally help me.
+Anvil: Be patient young Hadrius, just one more before you're ready.
+Hadrius_m: Young-? I'm not even 2 whole years younger than you!

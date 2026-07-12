@@ -1,0 +1,13 @@
+Caladia_h: Despite this next recipe being incredibly complex, I somehow have the exact perfect reagent for the task.
+Caladia_h: One of those quicksilver cure recipes that failed ended up creating this nasty biproduct, an amalgam of Vulcan, Fire, and Quicksilver. A runny sludge that never seems to cool down or solidify.
+Caladia_h: This seems like the perfect opportunity to use it up, finally getting rid of it.
+Caladia: Ok enough pondering, time to get cracking before the train reaches my station.
+
+-----------
+
+Caladia_h: Done!
+Caladia_h: With time to spare, though that seems to be because the train stopped early?
+Conductor: Attention! Attention please, ladies and gentlemen.
+Conductor: The train will be temporarily stopped while the engineers clear out the track.
+Conductor: There were reports of fallen trees due to the heavy weather and lightning strikes, and as a cautionary measure they will be going a short ways ahead to make sure the tracks are clear.
+Conductor: I would like to apologize for the delay, and thank you for your patience during this time, the train should be continuing it's journey after a short while.

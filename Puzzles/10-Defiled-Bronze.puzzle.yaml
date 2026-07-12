@@ -1,0 +1,194 @@
+Name: DEFILED BRONZE
+ID: 10-Defiled-Bronze
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: lead
+      Position:
+        Pos: -1,1
+    - AtomType: lead
+      Position:
+        Pos: 1,0
+    - AtomType: lead
+      Position:
+        Pos: 0,-1
+    - AtomType: salt
+      Position:
+        Pos: 0,1
+    - AtomType: lead
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: 1,-1
+    - AtomType: salt
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Litharge
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: copper
+      Position:
+        Pos: 0,0
+    - AtomType: copper
+      Position:
+        Pos: 0,1
+    - AtomType: copper
+      Position:
+        Pos: 1,-1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 2,-1
+    - AtomType: repeat
+      Position:
+        Pos: 2,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    Name: "Defiled Bronze"
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Projection, Purification, Disposal, CoreTools
+CustomPermissions:
+- Vaca:hollowing
+- Vaca:extraction
+- ReductiveMetallurgy:deposition
+- ReductiveMetallurgy:rejection
+- ReductiveMetallurgy:proliferation
+- ReductiveMetallurgy:ravari
+Highlights: []
+ProductionInfo: 

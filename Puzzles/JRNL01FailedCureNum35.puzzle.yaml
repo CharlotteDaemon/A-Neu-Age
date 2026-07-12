@@ -1,0 +1,217 @@
+Name: '(PAIN DAMPENER) FC#35'
+ID: JRNL01FailedCureNum35
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,-1
+    - AtomType: vitae
+      Position:
+        Pos: -1,0
+    - AtomType: vitae
+      Position:
+        Pos: -1,1
+    - AtomType: vitae
+      Position:
+        Pos: 0,1
+    - AtomType: vitae
+      Position:
+        Pos: 1,0
+    - AtomType: vitae
+      Position:
+        Pos: 1,-1
+    - AtomType: quintessence
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    Name: Energizing Pill
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: copper
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: 'Elemental Copper'
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: -2,1
+    - AtomType: vitae
+      Position:
+        Pos: -2,2
+    - AtomType: salt
+      Position:
+        Pos: -1,2
+    - AtomType: salt
+      Position:
+        Pos: 1,-2
+    - AtomType: vitae
+      Position:
+        Pos: 2,-2
+    - AtomType: vitae
+      Position:
+        Pos: 2,-1
+    - AtomType: tin
+      Position:
+        Pos: 0,-1
+    - AtomType: tin
+      Position:
+        Pos: 0,1
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: 1,-1
+    - AtomType: salt
+      Position:
+        Pos: -1,1
+    - AtomType: vitae
+      Position:
+        Pos: -1,0
+    - AtomType: vitae
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 2,-2
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 2,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -2,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,2
+      B:
+        Pos: -1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Pain Dampener
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: ''
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: PrismaBonder, Duplication, Quintessence, CoreTools
+CustomPermissions:
+- ReductiveMetallurgy:rejection
+- HalvingMetallurgy:halving
+- HalvingMetallurgy:shearing
+Highlights: []
+ProductionInfo: 

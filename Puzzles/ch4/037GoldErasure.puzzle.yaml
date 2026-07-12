@@ -1,0 +1,56 @@
+Name: 37. GOLD ERASURE
+ID: 037GoldErasure
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gold
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: quicksilver
+      Position:
+        Pos: 1,0
+    - AtomType: quicksilver
+      Position:
+        Pos: 2,0
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    - AtomType: repeat
+      Position:
+        Pos: 3,0
+    Bonds:
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,0
+      B:
+        Pos: 3,0
+      BondTypes:
+      - standard
+    Name: Quicksilver Waste
+  AmountOverride: 0
+OutputMultiplier: 2
+PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- Vaca:hollowing
+- Vaca:extraction
+- ReductiveMetallurgy:rejection
+Highlights: []
+ProductionInfo: 

@@ -1,0 +1,52 @@
+Title: "Alchemical Discoveries of the Modern Era"
+# Maybe "Acta Reductiva Metallurgicae" instead?
+#but then the Volume number shouldn't be LXV, it should be I
+Chapters:
+- Title: "From the Notes of Ms. Maro, Issue I: Medicinal Recipes Accidentally Discovered"
+  Description: "Although Caladia Maro has become known for her rediscovery and advancements in the field of Neuvolics, it was recently discovered that she had previously fabricated several medicinal recipes in a time of duress. Although they were all listed as 'failed' cures (Numbered as FC#1-#36), many of them have been found to be very useful in the general medicinal field."
+  Puzzles:
+  - "JRNL04FailedCureNum18"
+  - "JRNL02FailedCureNum27"
+  - "JRNL03FailedCureNum12"
+  - "JRNL01FailedCureNum35"
+  - "JRNL05FailedCureNum6"
+- Title: "From the Notes of Ms. Maro, Issue II: Inspirations and Collaborations with Peers"
+  Description: "Although most know her for her eclectic research style and strange habits, it's also true that Maro was very sociable and often worked with others both above and below her, regardless of their knowledge of the alchemical arts. This second issue highlights key studies and recipes that came from collaborations with her peers, or those who worked with her."
+  Puzzles:
+  - "ANA-JP2-HadriusTransformer"
+  - "ANA-JP2-MetalOrder"
+  - "ANA-JP2-PerfectSlag"
+  - "ANA-JP2-FixationInv"
+  - "ANA-JP2-Berlo2"
+- Title: "Neuvolics, Rediscovered, Issue I: Uses for Neuvolics at Home"
+  Description: "Volatile and reactive may be the default state of the Neuvolics, however, as decades pass, the number of use cases for them steadily rise. Many alchemists have demonstrated ways to placate the corrosive, destructive, and/or harmful natures of this elemental family, and others have found ways to harvest it. This short collection of recipes details several products and processes invented, patented, and distributed to the average household."
+  Puzzles:
+  - "ANA-JP5-WindFlame"
+  - "ANA-JP5-Paints"
+  - "ANA-JP5-RockSalt"
+  - "ANA-JP5-WoodFinish"
+  - "ANA-JP5-HeatControl"
+- Title: "Volume CLXXXIII: Vacant Materials And Associated Prime (Part One)"
+  Description: "Though the specific events of Fergus Ibra and associates--Sozar Peller and one which remains unnamed--are disputed in the historical record, the existence of the 'empty shell' metal, vaca, is beyond doubt. While its dim purple hue is now an informal symbol for air quality control and for lightweight materials, its other alchemical features require some introduction, given in the common exercises reprinted here."
+  Puzzles:
+  - 1-Elemental-Vaca
+  - 2-Solder-Fragment
+  - 3-Matryoshka
+  - 4-Hollow-Flame
+  - 5-Dust-to-Dust
+- Title: "Volume CLXXXIV: Vacant Materials And Associated Prime (Part Two)"
+  Description: "This supplementary material to the previous issue was found separated from the first half, and as such they are now published together, as they were originally meant to be together. It is unclear how originally only the first half of these alchemical discoveries were published, but it isn't uncommon for such things to slip through the cracks considering the chaotic and fast paced nature of the Post-Dictatorial-House era of the Alchemical Revolution."
+  Puzzles:
+  - 6-Extracted-Quicksilver
+  - 7-Deposited-Vaca
+  - 8-Wheel-Evacuation
+  - 9-Engine-Repair
+  - 10-Defiled-Bronze
+- Title: "Volume CLXXXV: Vaca Refinement and Production"
+  Description: "As the Vaca frontier is explored, many new methods of transmutation have been discovered, and some are confident enough to even say the rediscovery of the Vaca research marks the beginning of a second Alchemical Revolution. Confrences cannot be held often enough to accept the astounding amounts of new discoveries, thus a vote was held in the annual Alchemical Symposium. This issue contains five brand new challenges that force the reader to rethink their understanding of Vaca and it's capabilties."
+  Puzzles:
+  - ANA-JP6-ReGas
+  - ANA-JP6-RAI
+  - ANA-JP6-MR
+  - ANA-JP6-VR
+  - ANA-JP6-CR

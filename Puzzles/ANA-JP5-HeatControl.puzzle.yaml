@@ -1,0 +1,205 @@
+Name: Heat Control
+ID: ANA-JP5-HeatControl
+Author: 'Perkins, J.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 1,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Diminished Vaca
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 1,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Enhanced Vaca
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: air
+      Position:
+        Pos: 0,0
+    - AtomType: water
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Mist
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: -1,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 1,-1
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: 0,-1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: -1,1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: -1,2
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,1
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: -1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Insulation Foam
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: water
+      Position:
+        Pos: -1,2
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 1,-2
+    - AtomType: air
+      Position:
+        Pos: -1,1
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 0,-1
+    - AtomType: air
+      Position:
+        Pos: 0,1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    Name: Cooling Mist
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Disposal, CoreTools
+CustomPermissions:
+- HalvingMetallurgy:shearing
+- Neuvolics:consolidation
+- Vaca:extraction
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

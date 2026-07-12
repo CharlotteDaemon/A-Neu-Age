@@ -1,0 +1,17 @@
+[DO NOT PARSE]
+
+No. 0x2A
+
+#Vignettes Files
+
+#Vignette files are used to define dialogues and book entries. Basic features like cutscene transisitions and text formatting can be seen by looking at vignettes in the original campaign.
+
+Book entries don't have characters, and extra newlines are used to make paragraphs.
+This line is an example of when you use only one newline.
+
+This line is shows what happens when you use two.
+
+
+And this line demonstrates three newlines.
+
+Cutscenes and documents also use vignette files, though the formatting is different, and Quintessential doesn't support them for campaigns yet, I think.

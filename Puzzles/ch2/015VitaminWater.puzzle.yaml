@@ -1,0 +1,97 @@
+Name: 15. VITAMIN WATER
+ID: 015VitaminWater
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: water
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Stabilized Water
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: earth
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Stabilized Earth
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: water
+      Position:
+        Pos: 0,0
+    - AtomType: earth
+      Position:
+        Pos: -1,1
+    - AtomType: vitae
+      Position:
+        Pos: 0,-1
+    - AtomType: water
+      Position:
+        Pos: 0,1
+    - AtomType: salt
+      Position:
+        Pos: 1,0
+    - AtomType: vitae
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    Name: Vitamin Water
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: LifeAndDeath, Disposal, CoreTools
+CustomPermissions: []
+Highlights: []
+ProductionInfo: 

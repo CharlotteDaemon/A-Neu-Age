@@ -1,0 +1,21 @@
+Name: ANeuAge
+Version: 1.1.0
+#Icon: mod_icon.png
+Title: "A Neu Age"
+Desc: "New Atoms and New Puzzles"
+DLL: ANeuAge.dll
+Dependencies:
+- Name: Quintessential
+  Version: 0.5.6
+- Name: Brimstone
+  Version: 2.0.3
+- Name: HalvingMetallurgy
+  Version: 4.2.1
+- Name: Vacancy
+  Version: 1.0.1
+- Name: ReductiveMetallurgy
+  Version: 1.0.1
+- Name: Neuvolics
+  Version: 1.1.0
+#OptionalDependencies
+#Mappings:

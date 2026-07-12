@@ -1,0 +1,371 @@
+Name: 'E.III: HALF METAL INTERMEDIARIES'
+ID: Examiii
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: lead
+      Position:
+        Pos: 0,-3
+    - AtomType: HalvingMetallurgy:wolfram
+      Position:
+        Pos: -1,-2
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: -1,-1
+    - AtomType: HalvingMetallurgy:nickel
+      Position:
+        Pos: -1,0
+    - AtomType: HalvingMetallurgy:zinc
+      Position:
+        Pos: -1,1
+    - AtomType: HalvingMetallurgy:sednum
+      Position:
+        Pos: -1,2
+    - AtomType: HalvingMetallurgy:osmium
+      Position:
+        Pos: -1,3
+    - AtomType: tin
+      Position:
+        Pos: 0,-2
+    - AtomType: iron
+      Position:
+        Pos: 0,-1
+    - AtomType: copper
+      Position:
+        Pos: 0,0
+    - AtomType: silver
+      Position:
+        Pos: 0,1
+    - AtomType: gold
+      Position:
+        Pos: 0,2
+    - AtomType: salt
+      Position:
+        Pos: 0,-4
+    - AtomType: salt
+      Position:
+        Pos: -1,-3
+    - AtomType: salt
+      Position:
+        Pos: -2,-2
+    - AtomType: salt
+      Position:
+        Pos: -2,-1
+    - AtomType: salt
+      Position:
+        Pos: -2,0
+    - AtomType: salt
+      Position:
+        Pos: -2,1
+    - AtomType: salt
+      Position:
+        Pos: -2,2
+    - AtomType: salt
+      Position:
+        Pos: -2,3
+    - AtomType: salt
+      Position:
+        Pos: -2,4
+    - AtomType: salt
+      Position:
+        Pos: -1,4
+    - AtomType: salt
+      Position:
+        Pos: 0,3
+    - AtomType: salt
+      Position:
+        Pos: 1,2
+    - AtomType: salt
+      Position:
+        Pos: 1,1
+    - AtomType: salt
+      Position:
+        Pos: 1,0
+    - AtomType: salt
+      Position:
+        Pos: 1,-1
+    - AtomType: salt
+      Position:
+        Pos: 1,-2
+    - AtomType: salt
+      Position:
+        Pos: 1,-3
+    - AtomType: salt
+      Position:
+        Pos: 1,-4
+    Bonds:
+    - A:
+        Pos: -1,-2
+      B:
+        Pos: 0,-3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-2
+      B:
+        Pos: 0,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,3
+      B:
+        Pos: 0,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-4
+      B:
+        Pos: 1,-4
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-4
+      B:
+        Pos: 1,-3
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-3
+      B:
+        Pos: 1,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,1
+      B:
+        Pos: 1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,3
+      B:
+        Pos: 1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,4
+      B:
+        Pos: 0,3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,4
+      B:
+        Pos: -1,4
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,3
+      B:
+        Pos: -2,4
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,2
+      B:
+        Pos: -2,3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -2,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -2,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,-1
+      B:
+        Pos: -2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,-2
+      B:
+        Pos: -2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,-2
+      B:
+        Pos: -1,-3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-3
+      B:
+        Pos: 0,-4
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-3
+      B:
+        Pos: 0,-3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,3
+      B:
+        Pos: 0,3
+      BondTypes:
+      - standard
+    Name: Standard Metallic Guide, NOT MEANT FOR TRANSMUTATIONS
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gold
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:quickcopper
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Quickcopper
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: lead
+      Position:
+        Pos: 0,-1
+    - AtomType: lead
+      Position:
+        Pos: 1,-2
+    - AtomType: lead
+      Position:
+        Pos: 2,-2
+    - AtomType: quicksilver
+      Position:
+        Pos: 2,-1
+    - AtomType: tin
+      Position:
+        Pos: 1,0
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-2
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 2,-2
+      BondTypes:
+      - standard
+    Name: Reactive Pewter
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, SpeedBonder, Calcification, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- HalvingMetallurgy:shearing
+- HalvingMetallurgy:osmosis
+- ReductiveMetallurgy:deposition
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

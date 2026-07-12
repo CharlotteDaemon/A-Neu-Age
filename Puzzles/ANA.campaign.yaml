@@ -1,0 +1,481 @@
+# the # symbol is used for comments
+#
+# i also use it to separate parts of the file so i can read/parse it easier
+# but if it doesn't help you, then don't do that and just delete or move them :^)
+#
+# the model format is defined at:
+# https://github.com/QuintessentialOM/Quintessential/blob/master/Quintessential/Serialization/CampaignModel.cs
+# 
+
+Name: ANeuAge
+Title: "A Neu Age"
+############################################################################
+Chapters: # starts a list of Chapter models
+- Title: "Prologue: Final Exam"
+  Subtitle: "Practice Makes Perfect"
+  Place: "Testing Hall"
+  Background: textures/puzzle_select/background_6 # this reference a vanilla background
+  Entries:
+  - ID: "Exami"
+    Title: "E.i: Basic Efficiencies"
+    Puzzle: "ch0/Exami"
+    Icon: "textures/icons/Exam"
+    IconSmall: "textures/icons/Exam_small"
+    #Requires: ################### leaving this out means it's available immediately
+  - ID: "Examii"
+    Title: "E.ii: Distancing Metallicity"
+    Puzzle: "ch0/Examii"
+    Icon: "textures/icons/Exam"
+    IconSmall: "textures/icons/Exam_small"
+    #Requires: ################### leaving this out means it's available immediately
+  - ID: "Examiii"
+    Title: "E.iii: Half Metal Intermediaries"
+    Puzzle: "ch0/Examiii"
+    Icon: "textures/icons/Exam"
+    IconSmall: "textures/icons/Exam_small"
+  - ID: "Examiv"
+    Title: "E.iv: Halves Alloy Construction"
+    Puzzle: "ch0/Examiv"
+    Icon: "textures/icons/Exam"
+    IconSmall: "textures/icons/Exam_small"
+  - ID: "Examv"
+    Title: "E.v: Proof of Understanding"
+    Puzzle: "ch0/Examv"
+    Icon: "textures/icons/Exam"
+    IconSmall: "textures/icons/Exam_small"
+############################################################################
+- Title: "Chapter 1"
+  Subtitle: "By the Bootstraps"
+  Place: "Caladia's House"
+  Background: textures/backgrounds/rmc_saverio_office # this references a custom background in this mod's "Content" folder
+  Entries: # starts a list of entries for this chapter
+  - ID: "D01letter"
+    Title: "Letter From Professor"
+    Puzzle: "ch0/D01letter"
+    Icon: "textures/puzzle_select/icon_document"
+    IconSmall: "textures/puzzle_select/icon_document_small"
+  - Type: "puzzle" # iirc Quintessential only puzzles are supported
+    ID: "001SlagSeparation" # THIS IS IMPORTANT!
+  # again, to repeat, the ID is IMPORTANT! it needs to be unique.
+  # - the in-game story panel expects to find "<ID>.en.txt" to exist in the "Contents/vignettes" folder of this mod, where <ID> is replaced with whatever the ID of the entry is
+  #   (if you want to support story panels in other languages, create e.g. "<ID>.de.txt" for the German language)
+  # - this ID is also used in "save.dat" to track if player solved it and what their best scores were
+  # - also, this ID is used by the histograms - solves for the same ID are gathered and displayed for other players to see
+    Title: "1. Slag Separation"
+    Puzzle: "ch1/001SlagSeparation" # this needs to point to a .puzzle or a .puzzle.yaml in the "Puzzles" folder of this mod
+    Requires: "D01letter"
+    Icon: "textures/icons/Chap1_icon"
+    IconSmall: "textures/icons/Chap1_icon"
+    # Icon: "textures/icon_rmc_solitaire" # this points to a custom icon in the mod
+    # IconSmall: "textures/icon_rmc_solitaire_small" # this too
+    NoStoryPanel: false # not actually needed, since false is the default. this says "yes, there is a story panel"
+  - ID: "002ExploitingRust"
+    #Type: "puzzle" # "puzzle" is the default, so we don't actually need to include it
+    Title: "2A. Exploiting Rust"
+    Puzzle: "ch1/002ExploitingRust"
+    Requires: "001SlagSeparation" # we put an ID here - this entry will unlock once the entry with ID "PuzzleID_001" is completed
+    Icon: "textures/icons/Chap1_icon"
+    IconSmall: "textures/icons/Chap1_icon"  
+  #Icon: # leaving this out makes it default to the vanilla icon
+    #IconSmall: # same here
+  #-Type: "puzzle" is the default type, so we don't actually need to list it every time
+  - ID: "003SaltCeramics"
+    Title: "2B. Salt Ceramics"
+    Puzzle: "ch1/003SaltCeramics"
+    Requires: "001SlagSeparation"
+    Icon: "textures/icons/Chap1_icon"
+    IconSmall: "textures/icons/Chap1_icon"
+  
+  - ID: "004PrecisionMechanisms"
+    Title: "3A. Precision Mechanisms"
+    Puzzle: "ch1/004PrecisionMechanisms"
+    Requires: "003SaltCeramics"
+    Icon: "textures/icons/Chap1_icon"
+    IconSmall: "textures/icons/Chap1_icon"
+
+  - ID: "005ModularCoupling"
+    Title: "3B. Modular Coupling"
+    Puzzle: "ch1/005ModularCoupling"
+    Requires: "003SaltCeramics"
+    Icon: "textures/icons/Chap1_icon"
+    IconSmall: "textures/icons/Chap1_icon"
+
+  - ID: "006QuicksilverCureAttemptNum1"
+    Title: "4. Quicksilver Cure Attempt #1"
+    Puzzle: "ch1/006QuicksilverCureAttemptNum1"
+    Requires: "005ModularCoupling"
+    Icon: "textures/icons/Chap1_icon"
+    IconSmall: "textures/icons/Chap1_icon"
+
+  - ID: "007QuicksilverCureAttemptNum37"
+    Title: "5. Quicksilver Cure Attempt #37"
+    Puzzle: "ch1/007QuicksilverCureAttemptNum37"
+    Requires: "006QuicksilverCureAttemptNum1"
+    Icon: "textures/icons/Chap1_icon"
+    IconSmall: "textures/icons/Chap1_icon"
+
+  - ID: "C01PleaseWork"
+    Title: "5.01, Rubbed The Right Way"
+    Puzzle: "ch1/C01PleaseWork"
+    Requires: "007QuicksilverCureAttemptNum37"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+
+
+  - ID: "008SilverBarProcessing"
+    Title: "6, Silver Bar Processing"
+    Puzzle: "ch1/008SilverBarProcessing"
+    Requires: "007QuicksilverCureAttemptNum37"
+    Icon: "textures/icons/Chap1_icon"
+    IconSmall: "textures/icons/Chap1_icon"
+
+  - ID: "C03Assesing"
+    Title: "6.01, Debts Due"
+    Puzzle: "ch1/C03Assesing"
+    Requires: "008SilverBarProcessing"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+
+  - ID: "009ABadDecision"
+    Title: "7. A Bad Decision"
+    Puzzle: "ch1/009ABadDecision"
+    Requires: "C03Assesing"
+    Icon: "textures/icons/Chap1_icon"
+    IconSmall: "textures/icons/Chap1_icon"
+  
+############################################################################
+# next chapter, and its entries
+
+#
+############################################################################
+# next chapter, and its entries
+- Title: "Chapter 2"
+  Subtitle: "Trepidation and Trials"
+  Place: "Caladia's House"
+  Background: textures/backgrounds/rmc_saverio_office # this reference a vanilla background
+  Entries:
+
+  - ID: "010FocusElixir"
+    Title: "8A. Focus Elixir"
+    Puzzle: "ch2/010FocusElixir"
+    Requires: "009ABadDecision"
+    Icon: "textures/icons/Chap2_icon"
+    IconSmall: "textures/icons/Chap2_icon"
+
+  - ID: "011SoothingMist"
+    Title: "8B. Soothing Mist"
+    Puzzle: "ch2/011SoothingMist"
+    Requires: "009ABadDecision"
+    Icon: "textures/icons/Chap2_icon"
+    IconSmall: "textures/icons/Chap2_icon"
+
+  - ID: "012ViscousLiqour"
+    Title: "8C. Viscous Liqour"
+    Puzzle: "ch2/012ViscousLiqour"
+    Requires: "009ABadDecision"
+    Icon: "textures/icons/Chap2_icon"
+    IconSmall: "textures/icons/Chap2_icon"
+
+  - ID: "C03Drunken"
+    Title: "8.01 Drinking"
+    Puzzle: "ch2/C03Drunken"
+    Requires: "012ViscousLiqour"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+    
+  
+  - ID: "013MetallicFeedtape"
+    Title: "9. Metallic Feedtape"
+    Puzzle: "ch2/013MetallicFeedtape"
+    Requires: "C03Drunken"
+    Icon: "textures/icons/Chap2_icon"
+    IconSmall: "textures/icons/Chap2_icon"
+  
+  - ID: "C04Creek"
+    Title: "9.01 Ankle Deep in Mud"
+    Puzzle: "ch2/C04Creek"
+    Requires: "013MetallicFeedtape"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+
+  - ID: "014SiltSeparation"
+    Title: "10. Silt Sorting"
+    Puzzle: "ch2/014SiltSeparation"
+    Requires: "C04Creek"
+    Icon: "textures/icons/Chap2_icon"
+    IconSmall: "textures/icons/Chap2_icon"
+  
+  - ID: "015VitaminWater"
+    Title: "11. Vitamin Water"
+    Puzzle: "ch2/015VitaminWater"
+    Requires: "014SiltSeparation"
+    Icon: "textures/icons/Chap2_icon"
+    IconSmall: "textures/icons/Chap2_icon"
+
+  - ID: "016PotionOfReinvigoration"
+    Title: "12. Potion of Reinvigoration"
+    Puzzle: "ch2/016PotionOfReinvigoration"
+    Requires: "015VitaminWater"
+    Icon: "textures/icons/Chap2_icon"
+    IconSmall: "textures/icons/Chap2_icon"
+  
+  - ID: "C05AnApology"
+    Title: "12.01 An Apology"
+    Puzzle: "ch2/C05AnApology"
+    Requires: "016PotionOfReinvigoration"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+
+  - ID: "017StrangeMetalStudy"
+    Title: "13. Strange Metal Study"
+    Puzzle: "ch2/017StrangeMetalStudy"
+    Requires: "C05AnApology"
+    Icon: "textures/icons/Chap2_icon"
+    IconSmall: "textures/icons/Chap2_icon"
+
+  - ID: "C06BoilingOver"
+    Title: "13.01 Boiling Over"
+    Puzzle: "ch2/C06BoilingOver"
+    Requires: "017StrangeMetalStudy"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+
+  - ID: "C07CheckingOut"
+    Title: "13.02 Checking Out"
+    Puzzle: "ch2/C07CheckingOut"
+    Requires: "C06BoilingOver"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+  
+  - ID: "C08FadedPages"
+    Title: "13.03 Faded Pages"
+    Puzzle: "ch2/C08FadedPages"
+    Requires: "C07CheckingOut"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+
+  - ID: "018InkDetectingFluid"
+    Title: "14. Ink Detecting Fluid"
+    Puzzle: "ch2/018InkDetectingFluid"
+    Requires: "C08FadedPages"
+    Icon: "textures/icons/Chap2_icon"
+    IconSmall: "textures/icons/Chap2_icon"
+
+  - ID: "C09PutFootDown"
+    Title: "14.01, Putting the Foot Down"
+    Puzzle: "ch2/C09PutFootDown"
+    Requires: "018InkDetectingFluid"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+
+    ############################################################################
+# next chapter, and its entries
+- Title: "Chapter 3"
+  Subtitle: "Escaping Restraints"
+  Place: "The Aldora Express"
+  Background: textures/backgrounds/rmc_saverio_office  # this reference a vanilla background
+  Entries:
+
+  - ID: "C10MadDash"
+    Title: "14.02, Making a Mad Dash"
+    Puzzle: "ch3/C10MadDash"
+    Requires: "C09PutFootDown"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+  
+  - ID: "019CyclicalMetals"
+    Title: "15A. Cyclical Metalloids"
+    Puzzle: "ch3/019CyclicalMetals"
+    Requires: "C10MadDash"
+    Icon: "textures/icons/Chap3_icon"
+    IconSmall: "textures/icons/Chap3_icon"
+
+  - ID: "020NeumetallicCompound"
+    Title: "15B. Neumetallic Tile Compound"
+    Puzzle: "ch3/020NeumetallicCompound"
+    Requires: "C10MadDash"
+    Icon: "textures/icons/Chap3_icon"
+    IconSmall: "textures/icons/Chap3_icon"    
+
+  - ID: "021AurumGlyphPlating"
+    Title: "15C. Aurum-Alloy Glyph Plating"
+    Puzzle: "ch3/021AurumGlyphPlating"
+    Requires: "C10MadDash"
+    Icon: "textures/icons/Chap3_icon"
+    IconSmall: "textures/icons/Chap3_icon"
+  
+  - ID: "022AdvancedSolderPaste"
+    Title: "15D. High-Grade Solder Paste"
+    Puzzle: "ch3/022AdvancedSolderPaste"
+    Requires: "C10MadDash"
+    Icon: "textures/icons/Chap3_icon"
+    IconSmall: "textures/icons/Chap3_icon"
+
+  - ID: "023ShockFluids"
+    Title: "15E. Shock-Resistant SemiFluids"
+    Puzzle: "ch3/023ShockFluids"
+    Requires: "C10MadDash"
+    Icon: "textures/icons/Chap3_icon"
+    IconSmall: "textures/icons/Chap3_icon"
+
+  - ID: "024SelfSupportingTiles"
+    Title: "16A. Self Supporting Tiles"
+    Puzzle: "ch3/024SelfSupportingTiles"
+    Requires: "023ShockFluids"
+    Icon: "textures/icons/Chap3_icon"
+    IconSmall: "textures/icons/Chap3_icon"
+    
+  - ID: "025EnergyRedirector"
+    Title: "16B. Energy Redirecting Coil"
+    Puzzle: "ch3/025EnergyRedirector"
+    Requires: "023ShockFluids"    
+    Icon: "textures/icons/Chap3_icon"
+    IconSmall: "textures/icons/Chap3_icon"
+  
+  - ID: "026DisposalViaCycling"
+    Title: "16C. Disposal Via Cycling"
+    Puzzle: "ch3/026DisposalViaCycling"
+    Requires: "023ShockFluids"
+    Icon: "textures/icons/Chap3_icon"
+    IconSmall: "textures/icons/Chap3_icon"
+
+  - ID: "027FumeMitigatingParticles"
+    Title: "16D. Fume Mitigating Particles"
+    Puzzle: "ch3/027FumeMitigatingParticles"
+    Requires: "023ShockFluids"
+    Icon: "textures/icons/Chap3_icon"
+    IconSmall: "textures/icons/Chap3_icon"
+
+  - ID: "028FumeHarvesting"
+    Title: "17. Fume Harvesting"
+    Puzzle: "ch3/028FumeHarvesting"
+    Requires: "027FumeMitigatingParticles"
+    Icon: "textures/icons/Chap3_icon"
+    IconSmall: "textures/icons/Chap3_icon"
+
+  - ID: "029NeuvolicCatalyst"
+    Title: "18A. Neuvolic Catalyst"
+    Puzzle: "ch3/029NeuvolicCatalyst"
+    Requires: "028FumeHarvesting"
+    Icon: "textures/icons/Chap3_icon"
+    IconSmall: "textures/icons/Chap3_icon"
+
+  - ID: "030TwoSides"
+    Title: "18B. Two Sides of a Coin"
+    Puzzle: "ch3/030TwoSides"
+    Requires: "028FumeHarvesting"
+    Icon: "textures/icons/Chap3_icon"
+    IconSmall: "textures/icons/Chap3_icon"
+
+
+
+- Title: "Chapter 4"
+  Subtitle: "Two Sides of it All"
+  Place: "Gavrus Family Home || Maro Family Cabin"
+  Background: textures/backgrounds/rmc_saverio_office  # this reference a vanilla background
+  Entries:
+
+  - ID: "C11Cabin"
+    Title: "18.01, Cabin In The Woods"
+    Puzzle: "ch4/C11Cabin"
+    Requires: "030TwoSides"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+
+  - ID: "031TestChain"
+    Title: "19. Test Chain"
+    Puzzle: "ch4/031TestChain"
+    Requires: "C11Cabin"
+    Icon: "textures/icons/Chap4_icon_caladia"
+    IconSmall: "textures/icons/Chap4_icon_caladia"
+
+  - ID: "032LearningWithDanger"
+    Title: "20. Learning With Danger"
+    Puzzle: "ch4/032LearningWithDanger"
+    Requires: "031TestChain"
+    Icon: "textures/icons/Chap4_icon_caladia"
+    IconSmall: "textures/icons/Chap4_icon_caladia"
+
+  - ID: "033LossyConsolidation"
+    Title: "21. Lossy Consolidation"
+    Puzzle: "ch4/033LossyConsolidation"
+    Requires: "032LearningWithDanger"
+    Icon: "textures/icons/Chap4_icon_caladia"
+    IconSmall: "textures/icons/Chap4_icon_caladia"
+
+  - ID: "034SeparationEngine"
+    Title: "22. Separation Engine"
+    Puzzle: "ch4/034SeparationEngine"
+    Requires: "033LossyConsolidation"
+    Icon: "textures/icons/Chap4_icon_caladia"
+    IconSmall: "textures/icons/Chap4_icon_caladia"
+
+  - ID: "035CuttingThread"
+    Title: "23. Cutting Thread"
+    Puzzle: "ch4/035CuttingThread"
+    Requires: "034SeparationEngine"
+    Icon: "textures/icons/Chap4_icon_caladia"
+    IconSmall: "textures/icons/Chap4_icon_caladia"
+
+  - ID: "036UnlabeledStudy"
+    Title: "24. Unlabeled Study"
+    Puzzle: "ch4/036UnlabeledStudy"
+    Requires: "035CuttingThread"
+    Icon: "textures/icons/Chap4_icon_caladia"
+    IconSmall: "textures/icons/Chap4_icon_caladia"
+
+  - ID: "C12SilentHome"
+    Title: "24.01 Silent Home"
+    Puzzle: "ch4/C12SilentHome"
+    Requires: "036UnlabeledStudy"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+
+  - ID: "D02Note"
+    Title: "Scrawled Note"
+    Puzzle: "ch4/D02Note"
+    Requires: "C12SilentHome"
+    Icon: "textures/puzzle_select/icon_document"
+    IconSmall: "textures/puzzle_select/icon_document_small"
+
+  - ID: "C13Anvil"
+    Title: "24.02, An Apple Fell Far"
+    Puzzle: "ch4/C13Anvil"
+    Requires: "D02Note"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+
+  - ID: "037GoldErasure"
+    Title: "25. Gold Erasure"
+    Puzzle: "ch4/037GoldErasure"
+    Requires: "C13Anvil"
+    Icon: "textures/icons/Chap4_icon_anvil"
+    IconSmall: "textures/icons/Chap4_icon_anvil"
+
+  - ID: "038DemotionToLead"
+    Title: "26. Demotion Straight To Lead"
+    Puzzle: "ch4/038DemotionToLead"
+    Requires: "037GoldErasure"
+    Icon: "textures/icons/Chap4_icon_anvil"
+    IconSmall: "textures/icons/Chap4_icon_anvil"
+
+  - ID: "039IgnoringPurifijection"
+    Title: "27. Ignoring Purifijection"
+    Puzzle: "ch4/039IgnoringPurifijection"
+    Requires: "038DemotionToLead"
+    Icon: "textures/icons/Chap4_icon_anvil"
+    IconSmall: "textures/icons/Chap4_icon_anvil"
+
+  - ID: "040Quicksilverless"
+    Title: "28. Quicksilverless Alloy Produciton"
+    Puzzle: "ch4/040Quicksilverless"
+    Requires: "039IgnoringPurifijection"
+    Icon: "textures/icons/Chap4_icon_anvil"
+    IconSmall: "textures/icons/Chap4_icon_anvil"
+
+  - ID: "041BasicallyWitchcraft"
+    Title: "29. Basically Witchcraft"
+    Puzzle: "ch4/041BasicallyWitchcraft"
+    Requires: "040Quicksilverless"
+    Icon: "textures/icons/Chap4_icon_anvil"
+    IconSmall: "textures/icons/Chap4_icon_anvil"

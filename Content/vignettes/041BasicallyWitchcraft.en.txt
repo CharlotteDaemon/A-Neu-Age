@@ -1,0 +1,13 @@
+Anvil: Use the hair and these efficient alloys to construct the compass needle as displayed in my notes here.
+Anvil: The metals bind to the hair's 'essence' in a way that makes the compass tend towards the subject rather than the north pole.
+Hadrius: This seems like something out of a fairy tale. Will this actually work? 
+Hadrius: Or are you just messing with me again.
+Anvil: Only really one way for you to find out.
+
+-----------
+
+Hadrius: The needle...
+Hadrius_h: It's wavering south-east!
+Anvil: Indeed it is. Will you leave me now?
+Hadrius_h: Yes, I am after Caladia now.
+Anvil: Good. Hope we don't meet again for a while longer.

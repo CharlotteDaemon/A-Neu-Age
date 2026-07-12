@@ -1,0 +1,89 @@
+Name: 035. Cutting Thread
+ID: 035CuttingThread
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 0,0
+    - AtomType: tin
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Nullified Tin
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:taceum
+      Position:
+        Pos: 1,0
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Reactive Mitrum
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: iron
+      Position:
+        Pos: 1,-1
+    - AtomType: repeat
+      Position:
+        Pos: 1,0
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 0,1
+    - AtomType: iron
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Cutting Thread
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Disposal, CoreTools, Projection
+CustomPermissions:
+- Neuvolics:separation
+- Neuvolics:fixation
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

@@ -1,0 +1,37 @@
+Name: EXTRACTED QUICKSILVER
+ID: 6-Extracted-Quisilver
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: tin
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Tin
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Quicksilver
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: quicksilver
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Quicksilver
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: CoreTools
+CustomPermissions:
+- Vaca:hollowing
+- Vaca:extraction
+- ReductiveMetallurgy:rejection
+Highlights: []
+ProductionInfo: 
