@@ -1,0 +1,143 @@
+Name: Waltz Thread
+ID: ANA-JP8-Waltz
+Author: 'Tampan, A.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Frixon
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gelaron
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Salt
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Salt
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:hestium
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Hestium
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: 0,1
+    - AtomType: salt
+      Position:
+        Pos: 1,1
+    - AtomType: Neuvolics:azulum
+      Position:
+        Pos: 1,0
+    - AtomType: repeat
+      Position:
+        Pos: 2,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    Name: Waltz Left Hand
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: 1,0
+    - AtomType: Neuvolics:azulum
+      Position:
+        Pos: 1,-1
+    - AtomType: salt
+      Position:
+        Pos: 2,-1
+    - AtomType: repeat
+      Position:
+        Pos: 2,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    Name: Watlz Right Hand
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, SpeedBonder, Calcification, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- Neuvolics:fixation
+- Neuvolics:putrefaction
+- Neuvolics:separation
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

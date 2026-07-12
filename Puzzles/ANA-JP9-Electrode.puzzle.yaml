@@ -1,0 +1,123 @@
+Name: Enduring Electrode
+ID: ANA-JP9-Electrode
+Author: 'Faraday, M.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:azulum
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: 'Elemental Azulum'
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Stabilized Gelaron
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:osmium
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: 'Elemental Osmium'
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:hestium
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: -1,1
+    - AtomType: HalvingMetallurgy:osmium
+      Position:
+        Pos: -1,2
+    - AtomType: fire
+      Position:
+        Pos: 0,1
+    - AtomType: earth
+      Position:
+        Pos: -1,0
+    - AtomType: earth
+      Position:
+        Pos: 1,0
+    - AtomType: earth
+      Position:
+        Pos: -2,2
+    - AtomType: earth
+      Position:
+        Pos: 0,2
+    Bonds:
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: -1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,2
+      B:
+        Pos: -1,2
+      BondTypes:
+      - standard
+    Name: Enduring Electrode
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Duplication, CoreTools, BaronWheel
+CustomPermissions:
+- Neuvolics:putrefaction
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

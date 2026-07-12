@@ -21,11 +21,11 @@ Chapters:
 - Title: "Neuvolics, Rediscovered, Issue I: Uses for Neuvolics at Home"
   Description: "Volatile and reactive may be the default state of the Neuvolics, however, as decades pass, the number of use cases for them steadily rise. Many alchemists have demonstrated ways to placate the corrosive, destructive, and/or harmful natures of this elemental family, and others have found ways to harvest it. This short collection of recipes details several products and processes invented, patented, and distributed to the average household."
   Puzzles:
-  - "ANA-JP5-WindFlame"
-  - "ANA-JP5-Paints"
-  - "ANA-JP5-RockSalt"
-  - "ANA-JP5-WoodFinish"
-  - "ANA-JP5-HeatControl"
+  - "ANA-JP3-WindFlame"
+  - "ANA-JP3-Adhesive"
+  - "ANA-JP3-RockSalt"
+  - "ANA-JP3-WoodFinish"
+  - "ANA-JP3-HeatControl"
 - Title: "Volume CLXXXIII: Vacant Materials And Associated Prime (Part One)"
   Description: "Though the specific events of Fergus Ibra and associates--Sozar Peller and one which remains unnamed--are disputed in the historical record, the existence of the 'empty shell' metal, vaca, is beyond doubt. While its dim purple hue is now an informal symbol for air quality control and for lightweight materials, its other alchemical features require some introduction, given in the common exercises reprinted here."
   Puzzles:
@@ -50,3 +50,20 @@ Chapters:
   - ANA-JP6-MR
   - ANA-JP6-VR
   - ANA-JP6-CR
+- Title: "Volume CLXXXVII: Editors Picks (I)"
+  Description: "As the number of papers we recieve each day increases, our editors have suggested that we embrace this burgeoning third Alchemical Revolution by posting uncategorized discoveries and recipes. Here are a selection of favorites our editors have chosen for you to enjoy."
+  Puzzles:
+  - ANA-JP8-CapCrystal
+  - ANA-JP8-WWP
+  - ANA-JP8-Polarizing
+  - ANA-JP8-EngineRein
+  - ANA-JP8-Waltz
+- Title: "Neuvolics, Rediscovered, Issue III: Neuvolics in Industry"
+  Description: "The usefulness of Neuvolics in the greater Industrial World has proven itself to be expansive. From inhalants that prevent lung damage from harmful chemicals to durable lubricants, Neuvolics can be found in almost every corner of the industrial market."
+  Puzzles:
+  - ANA-JP9-FET
+  - ANA-JP9-Electrode
+  - ANA-JP9-Inhalants
+  - ANA-JP9-Lubricant
+  - ANA-JP9-Pest
+  

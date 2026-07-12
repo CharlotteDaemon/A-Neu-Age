@@ -37,15 +37,10 @@ Recommended Mods:
 
  
 Change Log:
-- Version 1.1.0:
-  - Updated several puzzles in both the campaign and the journal to be overall better to solve.
-    - Fixed the Ratios of I:O for the first page of the journal.
-    - Updated Inversion Via Fixation to have more interesting inputs and outputs.
-    - Changed "engine reinforcements" to "metallic feedtape" 
-    - Changed the entire puzzle for Unlabeled Study
-  - Added the "Uses for Neuvolics at Home" page
-  - Added the "Vaca Refinement and Production" page
-  - Fixed Typoes and Grammar
+- Version 1.2.0:
+  - Fixed a misnamed reagent in cutting thread
+  - Added the "Editors Choices (1)" page
+  - Added the "Neuvolics in industry" page
   - UPDATE YOUR NEUVOLICS MOD. A new update was added and it fixes a lot of previous issues.
   - UPDATE BRIMSTONE
   - UPDATE HALVING METALLURGY
@@ -62,6 +57,19 @@ Planned Features:
  - Custom charts for Neuvolic transmutations, and the new metallurgical transmutations
 
 Past Versions:
+- Version 1.1.0:
+  - Updated several puzzles in both the campaign and the journal to be overall better to solve.
+    - Fixed the Ratios of I:O for the first page of the journal.
+    - Updated Inversion Via Fixation to have more interesting inputs and outputs.
+    - Changed "engine reinforcements" to "metallic feedtape" 
+    - Changed the entire puzzle for Unlabeled Study
+  - Added the "Uses for Neuvolics at Home" page
+  - Added the "Vaca Refinement and Production" page
+  - Fixed Typoes and Grammar
+  - UPDATE YOUR NEUVOLICS MOD. A new update was added and it fixes a lot of previous issues.
+  - UPDATE BRIMSTONE
+  - UPDATE HALVING METALLURGY
+
 - Version 1.0.0 (note: even though this is named 1.0.0, and is considered to be out of beta, the main story is still unfinished, and more is yet to come.)
   - Added a boatload of new puzzles.
     - Added 11 new puzzles in chapter 4

@@ -34,7 +34,7 @@ Inputs:
         Pos: 1,0
       BondTypes:
       - standard
-    Name: Reactive Mitrum
+    Name: Reactive Taceum
   AmountOverride: 0
 Outputs:
 - Molecule:

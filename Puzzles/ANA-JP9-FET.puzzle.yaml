@@ -1,0 +1,403 @@
+Name: Field Effect Transistor
+ID: ANA-JP9-FET
+Author: 'Welker, H.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: 1,0
+    - AtomType: salt
+      Position:
+        Pos: -1,1
+    Bonds:
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Salt Housing Chunk
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: copper
+      Position:
+        Pos: 0,0
+    - AtomType: copper
+      Position:
+        Pos: 0,-1
+    - AtomType: copper
+      Position:
+        Pos: 0,-2
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 0,1
+    Bonds:
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    Name: Copper Terminal
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:hestium
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Diminished Hestium
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: copper
+      Position:
+        Pos: -2,0
+    - AtomType: copper
+      Position:
+        Pos: -2,-1
+    - AtomType: copper
+      Position:
+        Pos: -2,1
+    - AtomType: copper
+      Position:
+        Pos: 2,-3
+    - AtomType: copper
+      Position:
+        Pos: 2,-1
+    - AtomType: copper
+      Position:
+        Pos: 2,-2
+    - AtomType: copper
+      Position:
+        Pos: 0,0
+    - AtomType: copper
+      Position:
+        Pos: 0,-2
+    - AtomType: copper
+      Position:
+        Pos: 0,-1
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: 0,2
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: 2,0
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: 1,1
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: -1,2
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: -2,2
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 0,1
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: -1,1
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 1,0
+    - AtomType: salt
+      Position:
+        Pos: -1,0
+    - AtomType: salt
+      Position:
+        Pos: -3,1
+    - AtomType: salt
+      Position:
+        Pos: -3,2
+    - AtomType: salt
+      Position:
+        Pos: -3,3
+    - AtomType: salt
+      Position:
+        Pos: -2,3
+    - AtomType: salt
+      Position:
+        Pos: -1,3
+    - AtomType: salt
+      Position:
+        Pos: 0,3
+    - AtomType: salt
+      Position:
+        Pos: 1,2
+    - AtomType: salt
+      Position:
+        Pos: 2,1
+    - AtomType: salt
+      Position:
+        Pos: 3,0
+    - AtomType: salt
+      Position:
+        Pos: 1,-1
+    - AtomType: salt
+      Position:
+        Pos: 3,-1
+    Bonds:
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -2,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,-1
+      B:
+        Pos: -2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-2
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-3
+      B:
+        Pos: 2,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -3,1
+      B:
+        Pos: -3,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -3,1
+      B:
+        Pos: -2,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 3,-1
+      B:
+        Pos: 3,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,1
+      B:
+        Pos: 3,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,2
+      B:
+        Pos: 2,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,3
+      B:
+        Pos: 1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,3
+      B:
+        Pos: 0,3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,3
+      B:
+        Pos: -1,3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -3,3
+      B:
+        Pos: -2,3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -3,2
+      B:
+        Pos: -3,3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -2,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,2
+      B:
+        Pos: -1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,2
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,2
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 0,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: -1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-1
+      B:
+        Pos: 3,-1
+      BondTypes:
+      - standard
+    Name: F.E.T.
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: CoreTools
+CustomPermissions:
+- Neuvolics:putrefaction
+Highlights: []
+ProductionInfo: 
