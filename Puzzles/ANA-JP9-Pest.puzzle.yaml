@@ -72,7 +72,7 @@ Outputs:
     - AtomType: Neuvolics:taceum
       Position:
         Pos: -1,-1
-    - AtomType: Neuvolics:iridium
+    - AtomType: Neuvolics:azulum
       Position:
         Pos: -2,1
     - AtomType: mors
