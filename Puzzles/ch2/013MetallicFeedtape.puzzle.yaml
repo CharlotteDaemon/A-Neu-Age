@@ -1,5 +1,5 @@
-Name: UNNAMED CUSTOM PUZZLE
-ID: c565566866829757
+Name: Metallic Feedtape
+ID: 013MetallicFeedtape
 Author: ''
 Inputs:
 - Molecule:
@@ -77,6 +77,8 @@ OutputMultiplier: 1
 PermissionFlags: Purification, CoreTools
 CustomPermissions:
 - HalvingMetallurgy:sump
+- HalvingMetallurgy:shearing
+- HalvingMetallurgy:osmosis
 - ReductiveMetallurgy:proliferation
 - ReductiveMetallurgy:rejection
 Highlights: []

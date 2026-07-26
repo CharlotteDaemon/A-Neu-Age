@@ -66,4 +66,27 @@ Chapters:
   - ANA-JP9-Inhalants
   - ANA-JP9-Lubricant
   - ANA-JP9-Pest
-  
+- Title: "Grey Market Magazine: Anniversary Special"
+  Description: "Hey Kids, do you want to see some cool $#!%? Well too bad! Step aside for the real #^@%ing adults who want cool chemicals! This issue, instead of listing products for drop shipping, we decided to show our hand. Now we know a good magician never reveals their secrets, but special times call for special events. Here are five brand new recipes sure to rustle your jimmies! (WARNING: GREY MARKET MAGAZINE IS IN NO WAY AFFILIATED OR SPONSORED BY THE JOURNAL OF THE ALCHEMICAL SYMPOSIUM)"
+  Puzzles:
+  - ANA-JP10-MERCHANT
+  - ANA-JP10-Vitriol
+  - ANA-JP10-FG
+  - ANA-JP10-Chloro
+  - ANA-JP10-DYE
+- Title: "Neuvolics, Rediscovered, Issue IV: Neumetallic Alloys"
+  Description: "Neuvolics share properties with both the Cardinals and Metals, making them excellent candidates for compact alloys. Though most of these discoveries come from trial and error, there is no doubt an underlying science governing it all. This issue aims to present a smattering of alloys that give a broad view of the versatile nature of the Neuvolics."
+  Puzzles:
+  - ANA-JP11-PrismaGold
+  - ANA-JP11-RedVitriol
+  - ANA-JP11-Magnets
+  - ANA-JP11-Pyrophoric
+  - ANA-JP11-SteelLike
+- Title: "Neuvolics, Rediscovered, Issue V: Artistry and Jewelry"
+  Description: "The exotic properties of the neuvolics may push most away from working with them, but those same exotic and dangerous properties are what makes them so alluring to others. Alongside the practical discoveries, a push for more decadent materials made from the Neuvolics has lead to new alternatives for products that had previously dominated their fields. We would still like to urge those who follow these recipes to practive proper safety procedures with handling materials made from Neuvolics."
+  Puzzles:
+  - ANA-JP12-Iridescent
+  - ANA-JP12-ThickGlaze
+  - ANA-JP12-RGB
+  - ANA-JP12-Paints
+  - ANA-JP12-CMYK

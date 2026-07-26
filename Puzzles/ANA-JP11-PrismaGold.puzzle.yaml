@@ -1,0 +1,131 @@
+Name: Prismatic Gold
+ID: ANA-JP11-PrismaGold
+Author: 'Citrus, L.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: fire
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Stabilized Frixon
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Golden Mitrum Alloy
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 1,-1
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    - AtomType: mors
+      Position:
+        Pos: 0,-1
+    - AtomType: Neuvolics:hestium
+      Position:
+        Pos: -1,1
+    - AtomType: vitae
+      Position:
+        Pos: 0,1
+    - AtomType: fire
+      Position:
+        Pos: 1,0
+    - AtomType: repeat
+      Position:
+        Pos: 2,0
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: ''
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: LifeAndDeath, CoreTools
+CustomPermissions:
+- Neuvolics:putrefaction
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

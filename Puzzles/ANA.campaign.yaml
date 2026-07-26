@@ -479,3 +479,69 @@ Chapters: # starts a list of Chapter models
     Requires: "040Quicksilverless"
     Icon: "textures/icons/Chap4_icon_anvil"
     IconSmall: "textures/icons/Chap4_icon_anvil"
+
+- Title: "Chapter 5"
+  Subtitle: "Recovery"
+  Place: "Aldora Emergency Medical Center"
+  Background: textures/backgrounds/rmc_saverio_office  # this reference a vanilla background
+  Entries:
+
+  - ID: "042EXSOM"
+    Title: "30. EX SOMNORIUM"
+    Puzzle: "ch5/042EXSOM"
+    Requires: "041BasicallyWitchcraft"
+    Icon: "textures/icons/Chap4_icon_caladia"
+    IconSmall: "textures/icons/Chap4_icon_caladia"
+
+  - ID: "C14PassedOut"
+    Title: "30.1 Passed Out"
+    Puzzle: "ch5/C14PassedOut"
+    Requires: "042EXSOM"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+
+  - ID: "C15Visitor"
+    Title: "30.2 Visitor"
+    Puzzle: "ch5/C15Visitor"
+    Requires: "C14PassedOut"
+    Icon: "textures/puzzle_select/icon_cinematic"
+    IconSmall: "textures/puzzle_select/icon_cinematic_small"
+
+  - ID: "043PolarityInversion"
+    Title: "31. Polarity Inversion"
+    Puzzle: "ch5/043PolarityInversion"
+    Requires: "C15Visitor"
+    Icon: "textures/icons/Chap4_icon_caladia"
+    IconSmall: "textures/icons/Chap4_icon_caladia"
+
+  - ID: "044ViaCataclysm"
+    Title: "32A. Consolidation Via Cataclysm"
+    Puzzle: "ch5/044ViaCataclysm"
+    Requires: "043PolarityInversion"
+    Icon: "textures/icons/Chap4_icon_caladia"
+    IconSmall: "textures/icons/Chap4_icon_caladia"
+    NoStoryPanel: true
+    
+  - ID: "045TrulyInert"
+    Title: "32B. Truly Inert Matter"
+    Puzzle: "ch5/045TrulyInert"
+    Requires: "043PolarityInversion"
+    Icon: "textures/icons/Chap4_icon_caladia"
+    IconSmall: "textures/icons/Chap4_icon_caladia"
+    NoStoryPanel: true
+
+  - ID: "046CatalyzedFixation"
+    Title: "33A. Catalyzed Fixation"
+    Puzzle: "ch5/046CatalyzedFixation"
+    Requires: "045TrulyInert"
+    Icon: "textures/icons/Chap4_icon_caladia"
+    IconSmall: "textures/icons/Chap4_icon_caladia"
+    NoStoryPanel: true
+
+  - ID: "047SubvertingLimitations"
+    Title: "33B. Subverting Limitations"
+    Puzzle: "ch5/047SubvertingLimitations"
+    Requires: "045TrulyInert"
+    Icon: "textures/icons/Chap4_icon_caladia"
+    IconSmall: "textures/icons/Chap4_icon_caladia"
+    NoStoryPanel: true

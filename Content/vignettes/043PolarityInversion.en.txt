@@ -1,0 +1,31 @@
+Edgar: This is all amazing, and I could sit here and discuss for hours, but I have something more pertinent to give you.
+Caladia_d: Is that...?
+Edgar: Yes, the glyph you were theorizing in your notes... very strangly named... 'Cataclysm'.
+Caladia_i: Oh... is that what I wrote? heh...
+Caladia_d: I was trying to write... something like, Catalystic, but I wasn't of full sound mind then.
+Edgar: Yes, the state you were in when I first visited was quite grim. You should be thankful that you managed to survive with the kinds of substances you were working with.
+Edgar: The fact you managed to regain consciousness in just a little over a week is astounding.
+Caladia_d: Yes, yes. But what about Cataclysm?
+Edgar: Well it took some tinkering and modifications of your notes, but I ended up successfully recreating the glyph.
+Caladia_d: That's- I- Uh- Wow!
+Caladia_d: I never thought anyone would- uh- so soon- My research?
+Caladia_i: I don't think that sentence made much sense, sorry.
+Edgar: It's all right, perhaps I'm taking things too quickly. Maybe it's best I return another day, when you've recovered a little more?
+Caladia_d: No!- I mean, I uh, am fine enough!
+Edgar: If you say so...
+Edgar: Would you like to see it?
+Caladia_d: You brought it with you?
+Edgar: Indeed! But do be careful, it took several days to fabricate, so I only have the one.
+Caladia_d: Oh wow... it's so intricate and beautiful...
+Edgar: Even despite the unique circumstances, the Academy prioritizes safety and precision over hasty and 'good enough'.
+Edgar: There is a second part to this.
+Caladia_d: Huh?
+Edgar: Aside from some trouble shooting, I haven't tested the glyph out fully. I wanted to let you be the first to take it for a real spin!
+Caladia_d: Is that...
+Edgar: An official, proffesional-grade production engine? Yes, yes it is. And I'm giving it to you.
+Caladia_d: I'm- I can't believe this. Are you sure I'm not in some coma dream right now? This all feels too good to be true.
+Edgar: I'm quite sure we're not in your dream. So go ahead, give it a spin! Though, apologies beforehand for the strange limitations, I don't have much on me right now, so we'll be working with the bare minimum.
+
+-----------
+
+Verrin Ravari: Hey I'm here to say that this lore is still pending. Thanks.

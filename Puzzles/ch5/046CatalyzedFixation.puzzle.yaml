@@ -1,0 +1,72 @@
+Name: CATALYZED FIXATION
+ID: 046CatalyzedFixation
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Mitrum
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:hestium
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Hestium
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: PistonArm, Track, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- Neuvolics:separation
+- Neuvolics:cataclysm
+- Neuvolics:fixation
+Highlights: []
+ProductionInfo:
+  Chambers:
+  - ChamberType: Small
+    Position:
+      Pos: -6,2
+  - ChamberType: Small
+    Position:
+      Pos: -4,-2
+  - ChamberType: Large
+    Position:
+      Pos: 0,0
+  Conduits:
+  - PosA:
+      Pos: -7,3
+    PosB:
+      Pos: -1,1
+    Shape:
+    - Pos: 1,0
+    - Pos: 0,0
+  - PosA:
+      Pos: -4,-3
+    PosB:
+      Pos: 0,-1
+    Shape:
+    - Pos: 0,0
+    - Pos: 1,0
+  Vials:
+  - Position:
+      Pos: 2,3
+    Top: true
+    Sprites:
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  - Position:
+      Pos: 5,-3
+    Top: false
+    Sprites:
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  Isolation: false
+  ShrinkLeft: false
+  ShrinkRight: false
+Conduits: 
+Payloads: 

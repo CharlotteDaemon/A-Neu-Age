@@ -1,5 +1,5 @@
 Name: ANeuAge
-Version: 1.2.0
+Version: 1.3.0
 #Icon: mod_icon.png
 Title: "A Neu Age"
 Desc: "New Atoms and New Puzzles"
@@ -16,6 +16,6 @@ Dependencies:
 - Name: ReductiveMetallurgy
   Version: 1.0.1
 - Name: Neuvolics
-  Version: 1.1.0
+  Version: 1.2.0
 #OptionalDependencies
 #Mappings:

@@ -1,0 +1,137 @@
+Name: Addictive Dye
+ID: ANA-JP10-DYE
+Author: 'Allied Alchem Co.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: fire
+      Position:
+        Pos: -1,0
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: 0,1
+    - AtomType: fire
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Unstable Powder
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:beryl
+      Position:
+        Pos: 1,1
+    - AtomType: HalvingMetallurgy:beryl
+      Position:
+        Pos: -1,0
+    - AtomType: HalvingMetallurgy:beryl
+      Position:
+        Pos: -2,1
+    - AtomType: HalvingMetallurgy:beryl
+      Position:
+        Pos: 1,0
+    - AtomType: fire
+      Position:
+        Pos: -2,2
+    - AtomType: iron
+      Position:
+        Pos: 0,0
+    - AtomType: vitae
+      Position:
+        Pos: -1,1
+    - AtomType: vitae
+      Position:
+        Pos: 0,1
+    - AtomType: fire
+      Position:
+        Pos: 0,2
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,2
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 0,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Red "Food" Additive
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Projection, LifeAndDeath, CoreTools, Disposal
+CustomPermissions:
+- Vaca:extraction
+- ReductiveMetallurgy:rejection
+- HalvingMetallurgy:halving
+- ReductiveMetallurgy:deposition
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

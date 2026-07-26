@@ -1,0 +1,125 @@
+Name: Explosive Vitriol
+ID: ANA-JP10-Vitriol
+Author: 'Unknown'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: quintessence
+      Position:
+        Pos: -1,0
+    - AtomType: silver
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Essential Silver
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Enhaced Frixon
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 1,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 2,-1
+    - AtomType: fire
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Tangerine Vitriol A
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: fire
+      Position:
+        Pos: 0,0
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 1,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 1,1
+    - AtomType: salt
+      Position:
+        Pos: 0,-1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 1,1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Tangerine Vitriol B
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: PrismaBonder, Duplication, Quintessence, CoreTools
+CustomPermissions:
+- HalvingMetallurgy:shearing
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

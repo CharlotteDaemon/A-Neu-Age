@@ -1,0 +1,126 @@
+Name: Red Vitriol
+ID: ANA-JP11-RedVitriol
+Author: 'Green, P.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: lead
+      Position:
+        Pos: 0,0
+    - AtomType: quicksilver
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Reactive Lead
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Nullified Fire
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: -1,1
+    - AtomType: HalvingMetallurgy:beryl
+      Position:
+        Pos: 0,0
+    - AtomType: quicksilver
+      Position:
+        Pos: 1,0
+    - AtomType: fire
+      Position:
+        Pos: 2,-1
+    Bonds:
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Red Vitrol Part A
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:beryl
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: 1,0
+    - AtomType: salt
+      Position:
+        Pos: 1,1
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,-1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Red Vitrol Part B
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: PrismaBonder, Duplication, Projection, Disposal, CoreTools
+CustomPermissions:
+- ReductiveMetallurgy:rejection
+- ReductiveMetallurgy:ravari
+- ReductiveMetallurgy:deposition
+- HalvingMetallurgy:halving
+- HalvingMetallurgy:osmosis
+- HalvingMetallurgy:shearing
+- Neuvolics:separation
+- HalvingMetallurgy:sump
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

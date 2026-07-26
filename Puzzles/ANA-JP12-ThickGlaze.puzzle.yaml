@@ -1,0 +1,136 @@
+Name: Thick Glaze
+ID: ANA-JP12-ThickGlaze
+Author: 'Damone, C.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: earth
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: 0,-1
+    - AtomType: water
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Airless Triad
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:azulum
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Azulum
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Zephiron
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: fire
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: 0,1
+    - AtomType: Neuvolics:taceum
+      Position:
+        Pos: 2,-1
+    - AtomType: water
+      Position:
+        Pos: 1,0
+    - AtomType: earth
+      Position:
+        Pos: 2,0
+    - AtomType: repeat
+      Position:
+        Pos: 3,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 2,0
+      B:
+        Pos: 3,0
+      BondTypes:
+      - standard
+    Name: Thick Pottery Glaze
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: PrismaBonder, CoreTools
+CustomPermissions:
+- Neuvolics:putrefaction
+- Neuvolics:separation
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

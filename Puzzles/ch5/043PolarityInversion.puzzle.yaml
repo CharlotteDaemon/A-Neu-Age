@@ -1,0 +1,68 @@
+Name: POLARITY INVERSION
+ID: 043PolarityInversion
+Author: ''
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Frixon
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Gelaron
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: PistonArm, Track, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- Neuvolics:cataclysm
+Highlights: []
+ProductionInfo:
+  Chambers:
+  - ChamberType: Medium
+    Position:
+      Pos: 0,0
+  - ChamberType: Small
+    Position:
+      Pos: -5,2
+  - ChamberType: Small
+    Position:
+      Pos: -3,-2
+  Conduits:
+  - PosA:
+      Pos: -5,2
+    PosB:
+      Pos: -2,1
+    Shape:
+    - Pos: 0,0
+  - PosA:
+      Pos: -3,-2
+    PosB:
+      Pos: -1,-1
+    Shape:
+    - Pos: 0,0
+  Vials:
+  - Position:
+      Pos: 1,3
+    Top: true
+    Sprites:
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  - Position:
+      Pos: 4,-3
+    Top: false
+    Sprites:
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  Isolation: false
+  ShrinkLeft: false
+  ShrinkRight: false
+Conduits: 
+Payloads: 

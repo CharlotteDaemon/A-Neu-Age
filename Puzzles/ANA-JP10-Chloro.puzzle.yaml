@@ -1,0 +1,84 @@
+Name: Sleep Aide
+ID: ANA-JP10-Chloro
+Author: 'Capel, C.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Stabilised Iridium
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Zephiron
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: -1,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,1
+    - AtomType: salt
+      Position:
+        Pos: 1,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 1,-1
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Chloroform
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Disposal, CoreTools
+CustomPermissions:
+- Neuvolics:separation
+- Neuvolics:fixation
+- Neuvolics:putrefaction
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

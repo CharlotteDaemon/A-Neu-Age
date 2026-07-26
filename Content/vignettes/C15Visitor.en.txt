@@ -1,0 +1,29 @@
+Caladia_i: Ugh... My head... Where am I.
+Edgar: You are in the Aldora Hospital, your friend- d'oh what was his name- Hadrian?
+Caladia_i: Do you mean Hadrius?
+Edgar: Ah! Yes, Precisely.
+Edgar: Your friend Hadrius brought you here, that was about a week ago now.
+Caladia_i: A week! Has it really been a whole week? 
+Caladia_i: Also why do I feel like... I recognize you?
+Edgar: You may recognize me as Herr. Strubel, I was the assistant to your Professor, Ms. Camillus, she often spoke fondly of you so I just had to come by and visit.
+Caladia_i: Oh, now that you mention it, I do remember you. You're Mr. Penguin- I mean- Sorry.
+Edgar: Yes, yes, I am indeed aware of that less than dignifying 'nickname' that some students know me by, I've come to accept and welcome it, so no harm done on your part.
+Edgar: Regardless, I should clarify, that's not the only reason why I am here.
+Edgar: I wanted to discuss these with you.
+Caladia_d: My- My notes!?
+Caladia_d: Of the Neuvolics?!
+Edgar: Yeah, your friend stopped by the acadamy after checking you into the emergency room. He banged on the head office door until someone answered, that someone happened to be me, as your professor, Vollusia, normally answers around this time, but she's currently off in another country for a conference.
+Edgar: Your friend practically shoved this book in my hands, mumbling something about keeping it from you or making sure you don't do anything stupid and I must say, it had my curiosity beyond piqued.
+Edgar: Though some pages are torn, charred, or wracked with water damage, it's somehow still legible through simple ink revealing liquid.
+Caladia_d: Wow... I didn't know... You know of the ink fluid too?
+Edgar: Well, considering it was an invention of Vollusia Camillus's and Mine, I'd hope I still knew about it.
+Edgar: I wanted to patent it, but Camillus insisted we leave it open for free use. To think how much of a greedy young man I used to be.
+Edgar: Back on topic- All of this is downright maddening, in the best possible way.
+Edgar: I wanted to brush it off as cockimammy, surely this paper on the 'Neuvolics' was bologna like the other hundreds of papers that claim to prove their existance.
+Edgar: But these notes, and your additions, they seemed too grounded. As a man of science, it would be against my moral code to not at least verify or disprove them.
+Caladia_d: and...?
+Edgar: You, my good woman, have stumbled upon revolutionary material. Do tell me everything about how you found it!
+
+-----------
+
+Verrin Ravari: Don't mind me. Just vibing.

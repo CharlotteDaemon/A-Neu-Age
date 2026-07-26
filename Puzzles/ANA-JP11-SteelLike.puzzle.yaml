@@ -1,0 +1,165 @@
+Name: Steel-Like Alloy
+ID: ANA-JP11-SteelLike
+Author: 'Russ, T.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: tin
+      Position:
+        Pos: 0,-1
+    - AtomType: tin
+      Position:
+        Pos: 1,-1
+    - AtomType: earth
+      Position:
+        Pos: 0,0
+    - AtomType: tin
+      Position:
+        Pos: -1,1
+    - AtomType: tin
+      Position:
+        Pos: 0,1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Dirty Tin
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Nullified Iridium
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: iron
+      Position:
+        Pos: 0,-1
+    - AtomType: iron
+      Position:
+        Pos: -1,1
+    - AtomType: iron
+      Position:
+        Pos: 2,-1
+    - AtomType: iron
+      Position:
+        Pos: 1,1
+    - AtomType: Neuvolics:hestium
+      Position:
+        Pos: 0,1
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 1,-1
+    - AtomType: earth
+      Position:
+        Pos: 2,0
+    - AtomType: earth
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    Name: Steel-Like Alloy
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Purification, CoreTools
+CustomPermissions:
+- Neuvolics:fixation
+- Neuvolics:separation
+- Neuvolics:putrefaction
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

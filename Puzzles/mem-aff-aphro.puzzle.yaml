@@ -1,0 +1,151 @@
+Name: APHRODESIAC
+ID: mem-aff-aphro
+Author: 'Akī''a Flemming'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Healing Powder
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 1,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Nullified Frixon
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: -1,1
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: -2,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,-1
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: 1,0
+    - AtomType: Neuvolics:taceum
+      Position:
+        Pos: 3,-1
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 2,-1
+    - AtomType: vitae
+      Position:
+        Pos: -1,-1
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    - AtomType: vitae
+      Position:
+        Pos: -2,1
+    Bonds:
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-1
+      B:
+        Pos: 3,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -2,1
+      BondTypes:
+      - standard
+    Name: Memory-Effecting Aphrodesiac
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Nullified Mitrum
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: CoreTools
+CustomPermissions:
+- Neuvolics:separation
+- Neuvolics:putrefaction
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 
