@@ -1,0 +1,168 @@
+Name: Nihil et Nihil
+ID: ANA-JP7-SEMPER
+Author: 'Odacov, A.'
+Inputs: []
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:quicklime
+      Position:
+        Pos: -1,-1
+    - AtomType: HalvingMetallurgy:quicklime
+      Position:
+        Pos: 2,-1
+    - AtomType: HalvingMetallurgy:quicklime
+      Position:
+        Pos: 0,0
+    - AtomType: HalvingMetallurgy:quicklime
+      Position:
+        Pos: -2,1
+    - AtomType: HalvingMetallurgy:quicklime
+      Position:
+        Pos: 1,1
+    - AtomType: HalvingMetallurgy:quicklime
+      Position:
+        Pos: 1,-2
+    - AtomType: HalvingMetallurgy:quicklime
+      Position:
+        Pos: -1,2
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: -1,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,-1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,-1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: -1,1
+    Bonds:
+    - A:
+        Pos: -1,1
+      B:
+        Pos: -1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Concentrated Emptiness
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- HalvingMetallurgy:shearing
+- HalvingMetallurgy:osmosis
+- Vaca:hollowing
+- HalvingMetallurgy:soria
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

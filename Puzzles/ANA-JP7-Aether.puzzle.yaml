@@ -1,0 +1,264 @@
+Name: Aether Collection
+ID: ANA-JP7-Aether
+Author: 'Servin, H. and many others.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: gold
+      Position:
+        Pos: 0,0
+    - AtomType: quintessence
+      Position:
+        Pos: 0,-1
+    - AtomType: quintessence
+      Position:
+        Pos: 1,-1
+    - AtomType: quintessence
+      Position:
+        Pos: -1,0
+    - AtomType: quintessence
+      Position:
+        Pos: -1,1
+    - AtomType: quintessence
+      Position:
+        Pos: 0,1
+    - AtomType: quintessence
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Hex-Quintessential Gold
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: air
+      Position:
+        Pos: 0,-1
+    - AtomType: air
+      Position:
+        Pos: 2,-1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,0
+    - AtomType: quintessence
+      Position:
+        Pos: -1,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 2,-2
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,-2
+    - AtomType: quintessence
+      Position:
+        Pos: 2,0
+    - AtomType: quintessence
+      Position:
+        Pos: 3,-2
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,0
+    - AtomType: salt
+      Position:
+        Pos: 3,-1
+    - AtomType: salt
+      Position:
+        Pos: -1,-1
+    - AtomType: quintessence
+      Position:
+        Pos: 0,-2
+    Bonds:
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-1
+      B:
+        Pos: 3,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 3,-2
+      B:
+        Pos: 3,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,0
+      B:
+        Pos: 3,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 2,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-2
+      B:
+        Pos: 1,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-2
+      B:
+        Pos: 3,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Aether Capturer
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: copper
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: 0,-1
+    - AtomType: fire
+      Position:
+        Pos: 1,-1
+    - AtomType: fire
+      Position:
+        Pos: -1,1
+    - AtomType: fire
+      Position:
+        Pos: 0,1
+    - AtomType: quicksilver
+      Position:
+        Pos: 1,0
+    - AtomType: quicksilver
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Energizing Agent
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Duplication, Projection, Quintessence, CoreTools
+CustomPermissions:
+- Vaca:extraction
+- ReductiveMetallurgy:deposition
+- ReductiveMetallurgy:rejection
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

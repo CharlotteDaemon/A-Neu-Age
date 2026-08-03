@@ -1,0 +1,126 @@
+Name: Steel of the Wyvern
+ID: ANA-JP13-Steel
+Author: 'Green, P.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:sednum
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: 1,0
+    - AtomType: earth
+      Position:
+        Pos: 0,-1
+    - AtomType: HalvingMetallurgy:sednum
+      Position:
+        Pos: -2,1
+    - AtomType: iron
+      Position:
+        Pos: -2,0
+    - AtomType: quicksilver
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -2,1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Sednian Slag
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: iron
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: 1,-2
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 1,-1
+    - AtomType: iron
+      Position:
+        Pos: -1,0
+    - AtomType: earth
+      Position:
+        Pos: -1,1
+    - AtomType: HalvingMetallurgy:osmium
+      Position:
+        Pos: 0,1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    Name: Steel of the Wyvern
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, SpeedBonder, Calcification, Duplication, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols, BaronWheel
+CustomPermissions:
+- HalvingMetallurgy:quake
+- HalvingMetallurgy:shearing
+- HalvingMetallurgy:osmosis
+- HalvingMetallurgy:halving
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

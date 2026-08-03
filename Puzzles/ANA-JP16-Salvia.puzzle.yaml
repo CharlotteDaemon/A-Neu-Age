@@ -1,0 +1,398 @@
+Name: Salvia
+ID: ANA-JP16-Salvia
+Author: "Flemming, E."
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 0,0
+    - AtomType: vitae
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Healing Powder
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    - AtomType: salt
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Stabilised Salt
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: -1,1
+    - AtomType: vitae
+      Position:
+        Pos: -2,1
+    - AtomType: vitae
+      Position:
+        Pos: -1,-1
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 0,-1
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: -2,0
+    - AtomType: vitae
+      Position:
+        Pos: 1,1
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 1,0
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 0,2
+    - AtomType: vitae
+      Position:
+        Pos: -1,2
+    - AtomType: vitae
+      Position:
+        Pos: -2,4
+    - AtomType: vitae
+      Position:
+        Pos: 0,3
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: -2,3
+    - AtomType: air
+      Position:
+        Pos: -1,4
+    - AtomType: salt
+      Position:
+        Pos: -1,3
+    - AtomType: salt
+      Position:
+        Pos: -2,2
+    - AtomType: air
+      Position:
+        Pos: -3,2
+    - AtomType: air
+      Position:
+        Pos: -3,0
+    - AtomType: vitae
+      Position:
+        Pos: -3,-1
+    - AtomType: air
+      Position:
+        Pos: -2,-2
+    - AtomType: mors
+      Position:
+        Pos: -4,-1
+    - AtomType: mors
+      Position:
+        Pos: 3,-3
+    - AtomType: mors
+      Position:
+        Pos: 1,-1
+    - AtomType: air
+      Position:
+        Pos: 1,-3
+    - AtomType: mors
+      Position:
+        Pos: 0,1
+    - AtomType: vitae
+      Position:
+        Pos: -4,5
+    - AtomType: air
+      Position:
+        Pos: 1,3
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: -3,4
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: -4,4
+    - AtomType: air
+      Position:
+        Pos: -5,5
+    - AtomType: vitae
+      Position:
+        Pos: -3,3
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 1,-2
+    - AtomType: air
+      Position:
+        Pos: 2,-2
+    Bonds:
+    - A:
+        Pos: -1,-1
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,3
+      B:
+        Pos: 0,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,2
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -3,2
+      B:
+        Pos: -2,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -3,0
+      B:
+        Pos: -2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -4,-1
+      B:
+        Pos: -3,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -3,-1
+      B:
+        Pos: -2,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -3,0
+      B:
+        Pos: -3,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,0
+      B:
+        Pos: -1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,3
+      B:
+        Pos: 1,3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,4
+      B:
+        Pos: -2,3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,3
+      B:
+        Pos: -1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,3
+      B:
+        Pos: 0,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,4
+      B:
+        Pos: 0,3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,4
+      B:
+        Pos: -1,4
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,2
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -4,5
+      B:
+        Pos: -3,4
+      BondTypes:
+      - standard
+    - A:
+        Pos: -3,4
+      B:
+        Pos: -2,4
+      BondTypes:
+      - standard
+    - A:
+        Pos: -3,4
+      B:
+        Pos: -3,3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -4,4
+      B:
+        Pos: -3,3
+      BondTypes:
+      - standard
+    - A:
+        Pos: -5,5
+      B:
+        Pos: -4,4
+      BondTypes:
+      - standard
+    - A:
+        Pos: -5,5
+      B:
+        Pos: -4,5
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-3
+      B:
+        Pos: 1,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 2,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-2
+      B:
+        Pos: 3,-3
+      BondTypes:
+      - standard
+    Name: Salvinorin A
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: vitae
+      Position:
+        Pos: 0,0
+    - AtomType: vitae
+      Position:
+        Pos: 0,-1
+    - AtomType: vitae
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    Name: Healing Crystal
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, Duplication, LifeAndDeath, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols, BaronWheel
+CustomPermissions: []
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

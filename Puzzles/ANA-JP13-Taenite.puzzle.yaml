@@ -1,0 +1,124 @@
+Name: Artificial Taenite
+ID: ANA-JP13-Taenite
+Author: 'Volucer, S.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: earth
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: ''
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: copper
+      Position:
+        Pos: 0,0
+    - AtomType: quicksilver
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Reactive Copper
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:nickel
+      Position:
+        Pos: -1,1
+    - AtomType: HalvingMetallurgy:nickel
+      Position:
+        Pos: 0,1
+    - AtomType: HalvingMetallurgy:nickel
+      Position:
+        Pos: 1,-1
+    - AtomType: HalvingMetallurgy:nickel
+      Position:
+        Pos: 0,-1
+    - AtomType: iron
+      Position:
+        Pos: -1,2
+    - AtomType: iron
+      Position:
+        Pos: -1,0
+    - AtomType: iron
+      Position:
+        Pos: 1,0
+    - AtomType: iron
+      Position:
+        Pos: 1,-2
+    - AtomType: earth
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: -1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Artificial Taenite Fragment
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, Projection, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- ReductiveMetallurgy:proliferation
+- ReductiveMetallurgy:rejection
+- ReductiveMetallurgy:deposition
+- HalvingMetallurgy:halving
+- HalvingMetallurgy:shearing
+- HalvingMetallurgy:osmosis
+- HalvingMetallurgy:soria
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

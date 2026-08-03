@@ -50,6 +50,14 @@ Chapters:
   - ANA-JP6-MR
   - ANA-JP6-VR
   - ANA-JP6-CR
+- Title: "Volume CLXXXVI: Vaca Miscellanea"
+  Description: "This issue marks our final forray into Vaca exclusive pages celebrating the revitalization the field of study has seen. Once considered a near useless element now proven to be incredibly helpfull. From refining methods of Aether collection, to alloys with considerable insulation properties, Vaca continues to amaze in it's simple, yet flexible properties."
+  Puzzles:
+  - ANA-JP7-Aether
+  - ANA-JP7-Extraction
+  - ANA-JP7-Explosive
+  - ANA-JP7-SEMPER
+  - ANA-JP7-Alloy
 - Title: "Volume CLXXXVII: Editors Picks (I)"
   Description: "As the number of papers we recieve each day increases, our editors have suggested that we embrace this burgeoning third Alchemical Revolution by posting uncategorized discoveries and recipes. Here are a selection of favorites our editors have chosen for you to enjoy."
   Puzzles:
@@ -83,10 +91,34 @@ Chapters:
   - ANA-JP11-Pyrophoric
   - ANA-JP11-SteelLike
 - Title: "Neuvolics, Rediscovered, Issue V: Artistry and Jewelry"
-  Description: "The exotic properties of the neuvolics may push most away from working with them, but those same exotic and dangerous properties are what makes them so alluring to others. Alongside the practical discoveries, a push for more decadent materials made from the Neuvolics has lead to new alternatives for products that had previously dominated their fields. We would still like to urge those who follow these recipes to practive proper safety procedures with handling materials made from Neuvolics."
+  Description: "The exotic properties of the neuvolics may push most away from working with them, but those same exotic and dangerous properties are what makes them so alluring to others. Alongside the practical discoveries, a push for more decadent materials made from the Neuvolics has lead to new alternatives for products that had previously dominated their fields. We would still like to urge those who follow these recipes to practice proper safety procedures with handling materials made from Neuvolics."
   Puzzles:
   - ANA-JP12-Iridescent
   - ANA-JP12-ThickGlaze
   - ANA-JP12-RGB
   - ANA-JP12-Paints
   - ANA-JP12-CMYK
+- Title: "Volume CLXXXVIII: Specialties of Half Metals (I)"
+  Description: "Imagining a world without Half metals may be difficult, but that was the circumstance that the average alchemist would've found themselve in a little over one-hundred years ago. To celebrate a full century since Nickel, the first discovered half metal, was isolated, we have curated a special collection of Half Metallurgical studies. There is something here for all alchemists, young, old, novice or expert."
+  Puzzles:
+  - ANA-JP13-Osmic
+  - ANA-JP13-Exotic
+  - ANA-JP13-Wulframite
+  - ANA-JP13-Taenite
+  - ANA-JP13-Steel
+- Title: "Neuvolics, Rediscovered, Issue VI: Neumetallic Ores"
+  Description: "Finding a naturally occuring ore for each neumetal can be incredibly difficult, as the atoms tend to decay into other materials when left alone. However, it is still possible to find small deposits of the atoms hidden within other materials. These ores can be exotic, behaving in strange ways, or so simplistic that it's no wonder they stayed hiden away for centuries. These five studies show the most common way each Neumetal has been hiding right under our noses for the longest time."
+  Puzzles:
+  - ANA-JP15-Hestium
+  - ANA-JP15-Azulum
+  - ANA-JP15-Taceum
+  - ANA-JP15-Iridium
+  - ANA-JP15-Mitrum
+- Title: "Grey Market Magazine: The True Anniversary Special"
+  Description: "From the authors of the Grey Market Journal, we present our yearly special! This is our yearly thanks to both celebrate our founding anniversary and to thank you all, the buyers, for supporting our business. We have a bit of everything, from explosives that can break concrete to perfumes that will make people fall for you with a single sniff. Again, thank you so much for five years of support and we hope to continue producing useful products for decades to come! With much love, L. Flemming, Founder of Grey Market."
+  Puzzles:
+  - ANA-JP16-Archangel
+  - ANA-JP16-Aphro
+  - ANA-JP16-MindCtrl
+  - ANA-JP16-Enlighten
+  - ANA-JP16-Salvia

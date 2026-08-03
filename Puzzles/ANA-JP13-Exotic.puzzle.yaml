@@ -1,0 +1,80 @@
+Name: Exotic Alloys
+ID: ANA-JP13-Exotic
+Author: 'Zap, H.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: silver
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: ''
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: silver
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: ''
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: iron
+      Position:
+        Pos: -1,0
+    - AtomType: gold
+      Position:
+        Pos: 1,0
+    - AtomType: HalvingMetallurgy:sednum
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Exotic Ferrite
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: copper
+      Position:
+        Pos: -1,0
+    - AtomType: gold
+      Position:
+        Pos: 1,0
+    - AtomType: HalvingMetallurgy:sednum
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Exotic Cuprite
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, Projection, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- HalvingMetallurgy:halving
+- ReductiveMetallurgy:rejection
+Highlights: []
+ProductionInfo: 

@@ -1,0 +1,117 @@
+Name: Vitriol Distillation
+ID: ANA-JP15-Taceum
+Author: 'Strubel, E.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:taceum
+      Position:
+        Pos: 0,0
+    - AtomType: tin
+      Position:
+        Pos: -1,1
+    - AtomType: tin
+      Position:
+        Pos: 0,-1
+    - AtomType: iron
+      Position:
+        Pos: 1,0
+    - AtomType: quintessence
+      Position:
+        Pos: 1,-1
+    - AtomType: quintessence
+      Position:
+        Pos: -1,0
+    - AtomType: quintessence
+      Position:
+        Pos: 0,1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    Name: Tacic Vitriol
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:taceum
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Taceum
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: copper
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Copper
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,-1
+    - AtomType: salt
+      Position:
+        Pos: 1,0
+    - AtomType: quintessence
+      Position:
+        Pos: 0,0
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Bistabilized Quintessence
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Purification, Quintessence, CoreTools
+CustomPermissions:
+- HalvingMetallurgy:remission
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

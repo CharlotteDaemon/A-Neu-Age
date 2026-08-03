@@ -273,7 +273,7 @@ Outputs:
         Pos: 1,0
       BondTypes:
       - standard
-    Name: Salt Grain
+    Name: Salt Grain (Pure Crystal)
   AmountOverride: 0
 OutputMultiplier: 1
 PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, Projection, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols

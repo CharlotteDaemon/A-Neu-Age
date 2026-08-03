@@ -22,7 +22,7 @@ Edgar: There is a second part to this.
 Caladia_d: Huh?
 Edgar: Aside from some trouble shooting, I haven't tested the glyph out fully. I wanted to let you be the first to take it for a real spin!
 Caladia_d: Is that...
-Edgar: An official, proffesional-grade production engine? Yes, yes it is. And I'm giving it to you.
+Edgar: An official, professional-grade production engine? Yes, yes it is. And I'm giving it to you.
 Caladia_d: I'm- I can't believe this. Are you sure I'm not in some coma dream right now? This all feels too good to be true.
 Edgar: I'm quite sure we're not in your dream. So go ahead, give it a spin! Though, apologies beforehand for the strange limitations, I don't have much on me right now, so we'll be working with the bare minimum.
 

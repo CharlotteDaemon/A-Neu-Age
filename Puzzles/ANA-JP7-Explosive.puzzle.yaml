@@ -1,0 +1,66 @@
+Name: Concussive Charge
+ID: ANA-JP7-Explosive
+Author: Flemming, Z.
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Vulcan
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 0,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: -1,1
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,-1
+    Bonds:
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Sparse Explosive
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, PrismaBonder, Projection, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions:
+- HalvingMetallurgy:osmosis
+- ReductiveMetallurgy:rejection
+- Vaca:hollowing
+- HalvingMetallurgy:soria
+- Vaca:extraction
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

@@ -16,7 +16,7 @@ Order of Contents:
 
 A custom campaign for Opus Magnum that introduces Halving Metallurgy and the Neuvolics through the post college life of Caladia, a young and overambitious alchemist. Rediscover elements of the past with her 100 years after the events of the main campaign.
 
-You are playing version 1.3.0!
+You are playing version 1.4.0!
 
 !!! IMPORTANT NOTE !!!
 If you are not downloading a release (which there has not been one available yet) do NOT download the entire repo! Download ONLY the zip file by clicking on the link leading to the raw file and downloading it there. The entire repo is NOT going to function as a mod. Thank you for reading
@@ -27,8 +27,8 @@ Required Mods (OM mod list can be found here https://github.com/QuintessentialOM
  - Reductive Metallurgy Campaign (https://github.com/icwass/ReductiveMetallurgyCampaign)
  - Halving Metallurgy (https://github.com/ErikHaag/HalvingMetallurgy)
  - Vacancy (https://discord.com/channels/278707932089155584/1238621882652033094/1244388366133493781) - note: this one leads to a discord link, but it's just for the official unofficial zachtronics discord server. you do not have to join any additional discord server or be part of the community for an extended period of time or anything like that. The zip is just hosted on the discord server.
- - Neuvolics (Version 1.1.0 or above) (https://github.com/ErikHaag/Neuvolics)
- - ErikHaag's updated version of Quintessential (can be gotten by following the "Updating Quintessential" link in the pins of the modding channel on the semi official unofficial zachtronics discord server or by just copy-pasting this link into your browser https://github.com/ErikHaag/Quintessential/wiki/Installation)
+ - Neuvolics (Version 1.2.3 or above) (https://github.com/ErikHaag/Neuvolics)
+ - ErikHaag's updated version of Quintessential 0.6.0 or above (can be gotten by following the "Updating Quintessential" link in the pins of the modding channel on the semi official unofficial zachtronics discord server or by just copy-pasting this link into your browser https://github.com/ErikHaag/Quintessential/wiki/Installation)
 
 Recommended Mods:
  - Zoom Tool (https://github.com/l-Luna/ZoomTool)
@@ -37,14 +37,13 @@ Recommended Mods:
 
  
 Change Log:
-- Version 1.3.0:
+- Version 1.4.0:
   - Added Journal Pages:
-    - "Grey Market Magazine: Anniversary Special"
-    - "Neumetallic Alloys"
-    - "Artistry and Jewelry"
-  - Added 6 new campaign puzzles (Lore still not fully finished)
-  - Added 2 new cutscenes
-  - Fixed Metallic Feedtape improperly showing up as "Unnamed Custom Puzzle"
+    - "Vaca Miscellanea"
+    - "Halving Metallurgy Specials (1)"
+    - "Neumetal Ores"
+    - "Grey Market Magazine: The TRUE Anniversary Special"
+  - Fixed Various journal puzzles having misspelled molecule/author names.
   - As always, make sure you have the most up to date versions of the following mods, as they have updated recently and/or will be updated soon:
     - Neuvolics
     - Brimstone
@@ -63,6 +62,19 @@ Planned Features:
  - Custom charts for Neuvolic transmutations, and the new metallurgical transmutations
 
 Past Versions:
+- Version 1.3.0:
+  - Added Journal Pages:
+    - "Grey Market Magazine: Anniversary Special"
+    - "Neumetallic Alloys"
+    - "Artistry and Jewelry"
+  - Added 6 new campaign puzzles (Lore still not fully finished)
+  - Added 2 new cutscenes
+  - Fixed Metallic Feedtape improperly showing up as "Unnamed Custom Puzzle"
+  - As always, make sure you have the most up to date versions of the following mods, as they have updated recently and/or will be updated soon:
+    - Neuvolics
+    - Brimstone
+    - Quintessential
+
 - Version 1.2.1:
   - Fixed misplaced atom in Vermin Killer
 

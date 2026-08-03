@@ -1,0 +1,144 @@
+Name: Crystal Purification
+ID: ANA-JP15-Iridium
+Author: 'Yamaguchi, H.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: fire
+      Position:
+        Pos: 0,1
+    - AtomType: fire
+      Position:
+        Pos: -1,0
+    - AtomType: fire
+      Position:
+        Pos: 1,-1
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: -1,1
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: 0,-1
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: 1,0
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: -2,1
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 1,1
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 1,-2
+    Bonds:
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -2,1
+      B:
+        Pos: -1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    Name: Iridium Ore
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:iridium
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: ''
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: -1,0
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    Name: Flaming Metal
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: AllMechanisms, Bonder, Unbonder, SpeedBonder, Disposal, BasicSymbols, ResetSymbol, RepeatSymbol, PivotSymbols
+CustomPermissions: []
+Highlights: []
+ProductionInfo: 

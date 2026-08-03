@@ -1,0 +1,162 @@
+Name: Volcanic Rocks
+ID: ANA-JP15-Hestium
+Author: 'Citrius, L.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 0,0
+    - AtomType: fire
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Boiling Frixon
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:hestium
+      Position:
+        Pos: -1,0
+    - AtomType: Neuvolics:hestium
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:hestium
+      Position:
+        Pos: 1,0
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: -1,1
+    - AtomType: fire
+      Position:
+        Pos: 0,1
+    - AtomType: fire
+      Position:
+        Pos: 0,-1
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 1,-1
+    Bonds:
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - triplex_0
+      - triplex_1
+      - triplex_2
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    Name: Volcanic Ores
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:hestium
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Hestium
+  AmountOverride: 18
+- Molecule:
+    Atoms:
+    - AtomType: quintessence
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Quintessence
+  AmountOverride: 0
+- Molecule:
+    Atoms:
+    - AtomType: salt
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Salt
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Duplication, Purification, Quintessence, CoreTools, BaronWheel
+CustomPermissions:
+- Neuvolics:putrefaction
+Highlights: []
+ProductionInfo:
+  Chambers:
+  - ChamberType: Large
+    Position:
+      Pos: 0,0
+  - ChamberType: Medium
+    Position:
+      Pos: 9,0
+  Conduits:
+  - PosA:
+      Pos: 0,0
+    PosB:
+      Pos: 9,0
+    Shape:
+    - Pos: 0,0
+  Vials:
+  - Position:
+      Pos: 5,-3
+    Top: false
+    Sprites:
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  - Position:
+      Pos: 2,3
+    Top: true
+    Sprites:
+    - Left: textures/pipelines/vials/generic/empty
+      Right: textures/pipelines/vials/generic/empty
+  Isolation: false
+  ShrinkLeft: false
+  ShrinkRight: false
+Conduits: 
+Payloads: 

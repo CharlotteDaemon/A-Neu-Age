@@ -1,0 +1,67 @@
+Name: Sparse Alloy
+ID: ANA-JP7-Alloy
+Author: 'Osiris, X.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: HalvingMetallurgy:wolfram
+      Position:
+        Pos: 0,0
+    Bonds: []
+    Name: Elemental Wolfram
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 0,0
+    - AtomType: Vaca:vaca
+      Position:
+        Pos: 1,0
+    - AtomType: HalvingMetallurgy:beryl
+      Position:
+        Pos: 2,0
+    - AtomType: lead
+      Position:
+        Pos: 3,0
+    - AtomType: repeat
+      Position:
+        Pos: 4,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,0
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,0
+      B:
+        Pos: 3,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 3,0
+      B:
+        Pos: 4,0
+      BondTypes:
+      - standard
+    Name: Sparse Alloy
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: CoreTools
+CustomPermissions:
+- Vaca:hollowing
+- HalvingMetallurgy:remission
+- ReductiveMetallurgy:deposition
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 

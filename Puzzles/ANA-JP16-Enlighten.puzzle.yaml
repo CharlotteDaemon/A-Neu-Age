@@ -1,0 +1,199 @@
+Name: Vapors of Enlightenment
+ID: ANA-JP16-Enlighten
+Author: 'Flemming, N.'
+Inputs:
+- Molecule:
+    Atoms:
+    - AtomType: Neuvolics:zephiron
+      Position:
+        Pos: 0,-1
+    - AtomType: salt
+      Position:
+        Pos: -1,1
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: -1,0
+    - AtomType: quintessence
+      Position:
+        Pos: 0,0
+    - AtomType: HalvingMetallurgy:vulcan
+      Position:
+        Pos: 1,-1
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 0,1
+    - AtomType: salt
+      Position:
+        Pos: 1,0
+    Bonds:
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,1
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 1,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,-1
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: -1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,0
+      B:
+        Pos: 0,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    Name: Lustrous Tome Shard
+  AmountOverride: 0
+Outputs:
+- Molecule:
+    Atoms:
+    - AtomType: tin
+      Position:
+        Pos: 0,0
+    - AtomType: Neuvolics:mitrum
+      Position:
+        Pos: 0,1
+    - AtomType: Neuvolics:gelaron
+      Position:
+        Pos: 1,1
+    - AtomType: iron
+      Position:
+        Pos: 2,0
+    - AtomType: air
+      Position:
+        Pos: 2,-1
+    - AtomType: Neuvolics:frixon
+      Position:
+        Pos: 1,-1
+    - AtomType: vitae
+      Position:
+        Pos: 1,-2
+    - AtomType: water
+      Position:
+        Pos: 3,-2
+    - AtomType: mors
+      Position:
+        Pos: 1,2
+    - AtomType: vitae
+      Position:
+        Pos: -1,2
+    - AtomType: repeat
+      Position:
+        Pos: 3,0
+    Bonds:
+    - A:
+        Pos: 1,-2
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,-1
+      B:
+        Pos: 2,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,1
+      B:
+        Pos: 2,0
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,1
+      B:
+        Pos: 1,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 0,0
+      B:
+        Pos: 1,-1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,-1
+      B:
+        Pos: 3,-2
+      BondTypes:
+      - standard
+    - A:
+        Pos: 1,1
+      B:
+        Pos: 1,2
+      BondTypes:
+      - standard
+    - A:
+        Pos: -1,2
+      B:
+        Pos: 0,1
+      BondTypes:
+      - standard
+    - A:
+        Pos: 2,0
+      B:
+        Pos: 3,0
+      BondTypes:
+      - standard
+    Name: 'Enlightenment Inscense '
+  AmountOverride: 0
+OutputMultiplier: 1
+PermissionFlags: Projection, LifeAndDeath, Quintessence, CoreTools
+CustomPermissions:
+- HalvingMetallurgy:soria
+- HalvingMetallurgy:osmosis
+- Neuvolics:separation
+Highlights: []
+ProductionInfo: 
+Conduits: 
+Payloads: 
